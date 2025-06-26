@@ -16,9 +16,25 @@ const Navbar = () => {
           <li key={item} className="cursor-pointer hover:text-yellow-400">{item}</li>
         ))}
       </ul>
-      <button className="bg-yellow-500 hover:bg-yellow-600 text-black font-semibold px-4 py-2 rounded z-10">
+
+
+      <div className="inline-block z-10"
+      style={{
+        clipPath: 'polygon(10% 0%, 90% 0%, 100% 50%, 90% 100%, 10% 100%, 0% 50%)',
+        backgroundColor: '#D4AF37', // gold border simulation
+        padding: '2px',             // thickness of "border"
+      }}
+      >
+      <button className="text-white text-sm font-medium px-6 py-2 w-full h-full"
+        style={{
+          clipPath: 'polygon(10% 0%, 90% 0%, 100% 50%, 90% 100%, 10% 100%, 0% 50%)',
+          backgroundColor: 'black',
+          border: 'none',
+        }}>
         BOOK YOUR CALL
       </button>
+      </div>
+
     </nav>
   );
 };
