@@ -1,5 +1,5 @@
 import React from 'react';
-import BadImg from '../assets/Badbuisness.jpg'; 
+import BadImg from '../assets/badbuisness.jpg'; 
 
 const BadBusinessPage = () => {
   return (
