@@ -1,5 +1,5 @@
 import React from 'react';
-import riseImg from '../assets/rise.jpg';
+import riseImg from '../assets/newrise.jpg';
 
 const RisePage = () => {
 

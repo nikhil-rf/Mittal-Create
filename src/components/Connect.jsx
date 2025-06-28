@@ -1,6 +1,6 @@
 import React from 'react'; 
 import googleLogo from '../assets/google.png';
-import spotifyIcon from '../assets/spotify.png'; 
+import spotifyIcon from '../assets/newspotify.png'; 
 import youtubeIcon from '../assets/youtube.png'; 
 import linkedinLogo from '../assets/linkedin.png';
 import xingLogo from '../assets/xing.png';
