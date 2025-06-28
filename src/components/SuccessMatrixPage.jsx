@@ -7,7 +7,7 @@ const SuccessMatrixPage = () => {
 
     
     <div className="h-full w-full bg-black py-18 px-4 space-y-2">
-        <div class="w-0 h-0 border-x-[80px] border-x-transparent border-t-[40px] border-t-white mx-auto -mt-18"></div>
+        <div className="w-0 h-0 border-x-[80px] border-x-transparent border-t-[40px] border-t-white mx-auto -mt-18"></div>
       <h1 className="ml-18 text-5xl font-bold text-[#CE9D4B] mb-12 mt-28  underline decoration-[#CE9D4B] decoration-6">
         SUCCESS MATRIX
       </h1>

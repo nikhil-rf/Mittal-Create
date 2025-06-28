@@ -45,7 +45,7 @@ const SuccessBrands = () => {
 
 
         {/* Tagline */}
-        <p className="text-md md:text-lg font-semibold underline underline-offset-4 text-center">
+        <p className="text-md md:text-lg font-semibold underline underline-offset-4 decoration-[#E6C584] text-center">
           A Multinational “MITTAL” Brand Expanding by 2030
         </p>
       </div>

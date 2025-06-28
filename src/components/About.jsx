@@ -5,7 +5,7 @@ const AboutSarthak = () => {
   return (
     <div className="min-h-screen bg-white py-20 px-1 md:px-20 relative">
       {/* Top Chevron */}
-<div class="w-0 h-0 border-x-[80px] border-x-transparent border-t-[40px] border-t-black mx-auto -mt-20"></div>
+      <div className="w-0 h-0 border-x-[80px] border-x-transparent border-t-[40px] border-t-black mx-auto -mt-20"></div>
 
       {/* Section Container */}
       <div className="bg-white p-6 md:p-10 flex flex-col md:flex-row items-start gap-10 relative z-20">
@@ -98,7 +98,7 @@ const AboutSarthak = () => {
           <img
             src={profileImg}
             alt="Sarthak Mittal"
-            className="absolute -right-[90px] top-25 w-[250px] max-w-full h-[700px] object-cover z-0"
+            className="relative -right-[161px] top-[100px] w-[250px] max-w-full h-[700px] object-cover z-0"
             
           />
         </div>

@@ -47,7 +47,7 @@ const HeroSection = () => {
         <h1 className="text-4xl md:text-6xl font-bold text-[#CE9D4B] mb-2">
           MITTAL <span className="text-white">CREATE</span>
         </h1>
-        <h2 className="text-xl text-[#E6C584] md:text-2xl font-semibold mb-6">
+        <h2 className="text-xl text-[#CE9D4B] md:text-2xl font-semibold mb-6">
           VISIONARY CEO’S & INDUSTRY-LEADING ENTERPRISES
         </h2>
         <p className="text-lg md:text-xl mb-4 font-medium">
@@ -57,7 +57,7 @@ const HeroSection = () => {
           Blending Soul & Strategy to Shape Legacy, Influence, and Impact
         </p>
 
-        <div className="text-yellow-400 font-semibold mb-2">
+        <div className="text-[#CE9D4B] mb-2">
           TRUSTED BY
         </div>
         <div className="flex flex-wrap justify-center gap-6 mb-6">
@@ -78,7 +78,7 @@ const HeroSection = () => {
           ))}
         </div>
 
-        <div className="text-yellow-400 font-semibold mb-2">MY WORK HAS REACHED AUDIENCES AT</div>
+        <div className="text-[#CE9D4B]  mb-2">MY WORK HAS REACHED AUDIENCES AT</div>
         <div className="flex flex-wrap justify-center gap-4 text-sm">
           {[
             'Reuters',
