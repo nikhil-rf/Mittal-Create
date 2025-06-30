@@ -10,11 +10,19 @@ import Rebellion from './components/Rebellion';
 import RisePage from './components/Rise';
 import BadBusiness from './components/Badbuisness';
 import Legacy from './components/Legacy';
+import Framework from './components/Framewoek';
+import Services from './components/Services';
+import Awards from './components/Awards';
+import Image from './components/Image';
+import Testimonials from './components/Testimonial';
+import Podcast from './components/Podcast';
+// import Struggle from './components/Struggle';
+import MasteringSucess from './components/MasteringSucess';
 
 const App = () => {
   return (
     <div className="font-montserrat">
-      <Navbar />
+      {/* <Navbar /> */}
       <HeroSection />
       <About />
       <SuccessMatrixPage />
@@ -25,6 +33,13 @@ const App = () => {
       <RisePage />
       <BadBusiness />
       <Legacy />
+      <Framework />
+      <Services />
+      <Awards />
+      <Image />
+      <Testimonials />
+      <Podcast />
+      <MasteringSucess />
     </div>
   );
 };

@@ -1,14 +1,15 @@
 import React from 'react';
-import logo from "../assets/logo.png";
+import logo from "../assets/mittal.png";
 
 const Navbar = () => {
   return (
+    
     <nav className="flex justify-between items-center px-6 py-2 bg-black bg-opacity-50 text-white h-20 relative overflow-visible">
-      <div className="flex items-center bg-opacity-50 relative z-10">
+      <div className="flex items-center bg-opacity-50 relative z-10 mt-3">
         <img
           src={logo}
           alt="Logo"
-          className="h-24 w-auto -my-2 object-contain"
+          className="h-20 w-auto -my-2 object-contain"
         />
       </div>
       <ul className="hidden md:flex gap-6 text-sm z-10">
