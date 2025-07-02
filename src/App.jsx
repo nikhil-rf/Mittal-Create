@@ -16,8 +16,11 @@ import Awards from './components/Awards';
 import Image from './components/Image';
 import Testimonials from './components/Testimonial';
 import Podcast from './components/Podcast';
-// import Struggle from './components/Struggle';
+import Struggle from './components/Struggle';
 import MasteringSucess from './components/MasteringSucess';
+import Blog from './components/Blog';
+import Why from './components/Why';
+import Footer from './components/Footer';
 
 const App = () => {
   return (
@@ -38,8 +41,13 @@ const App = () => {
       <Awards />
       <Image />
       <Testimonials />
+      <Struggle />
       <Podcast />
       <MasteringSucess />
+      <Blog /> 
+      <Why />
+      <Connect />
+      <Footer />
     </div>
   );
 };

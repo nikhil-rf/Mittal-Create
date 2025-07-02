@@ -1,114 +1,125 @@
 import React from "react";
+import logo1 from "../assets/logo1.png";
+import logo2 from "../assets/logo2.png";
+import moment3 from "../assets/moment3.jpg";
+import moment4 from "../assets/moment4.png";
+import moment5 from "../assets/moment5.jpg";
+import moment6 from "../assets/moment6.jpg";
+import moment7 from "../assets/moment7.jpg";
+import moment8 from "../assets/moment8.png";
+import moment9 from "../assets/moment9.jpg";
+import moment10 from "../assets/moment10.jpg";
+import moment11 from "../assets/moment11.jpg";
+import moment12 from "../assets/moment12.jpg";
 
-const moments = [
+const struggles = [
   {
-    title: "First Private Limited Company after 119 Years",
-    image: "/assets/logo1.jpg",
-    description:
-      "Starting my first private limited company was a joyful and daring journey. But through every challenge, my mom stood by my side – and together, we made it.",
+    title: "First Privates Limited Company after 17Y",
+    desc: "Starting my first Privates Limited company was a real challenge. Every step, from registration to scaling, taught me something new.",
+    img: logo1,
   },
   {
     title: "My First USA Based Company",
-    image: "/assets/logo2.jpg",
-    description:
-      "It was my dream to start a company in the USA. After years of hard work and hope, I finally made it.",
+    desc: "Expanding overseas wasn't easy. In 2022, after years of hard work, I created my first USA-based company.",
+    img: logo2,
   },
   {
     title: "My First TEDx talk",
-    image: "/assets/moment3.jpg",
-    description:
-      "I was grateful to be invited to deliver a TEDx Talk at MRU — a lifelong achievement that I will always cherish.",
+    desc: "I was grateful to deliver my first TEDx talk in 2022, sharing my entrepreneurial journey worldwide.",
+    img: moment3,
   },
   {
-    title: "35000 LinkedIn Followers + 10 Million Impressions",
-    image: "/assets/moment4.jpg",
-    description:
-      "Getting 10 Million impressions on LinkedIn at such an age is a huge milestone for me, as my story got accepted by thousands of people.",
+    title: "35000 LinkedIn Followers + 10 Million",
+    desc: "Creating a following of 35,000+ on LinkedIn and reaching 10 million impressions is a milestone I cherish.",
+    img: moment4,
   },
   {
     title: "LinkedIn Star",
-    image: "/assets/moment5.jpg",
-    description:
-      "My Profile was selected as a LinkedIn Star Profile, LinkedIn Entrepreneurship Digest, and Top 1% of the world’s most viewed profiles.",
+    desc: "My insights and advice led to LinkedIn Star status, unlocking new opportunities and connections.",
+    img: moment5,
   },
   {
-    title: "My First ‘Luxurious’ Watch",
-    image: "/assets/moment6.jpg",
-    description:
-      "After years of dedication and hard work, I am incredibly proud to own my first luxury watch – a symbol of perseverance and a milestone I will always cherish.",
+    title: "My First 'Luxurious' Watch",
+    desc: "After years of effort, I rewarded myself with a special watch—a symbol of my journey and growth.",
+    img: moment6,
   },
   {
     title: "The First Offline Session",
-    image: "/assets/moment7.jpg",
-    description:
-      "I was invited by SV Polytechnic Institute (Rajkot) by HOD Mr. Mukesh Kumar Kansara to deliver a session on Starting a Business in Early Age. It is always the most proud moment for me.",
+    desc: "I took pride in physically meeting students and sharing my experiences in my first offline session.",
+    img: moment7,
   },
   {
     title: "The First Presentation",
-    image: "/assets/moment8.jpg",
-    description:
-      "This is the image of one of my early presentations at my college NMIMS with my colleagues. It always helped me a lot to boost my presentation skills.",
+    desc: "From college days to professional life, my first presentation was a leap in public speaking.",
+    img: moment8,
   },
   {
     title: "Founding Coding Community",
-    image: "/assets/moment9.jpg",
-    description:
-      "Sarthak Mittal initiated coding community in NMIMS Indore, to empower juniors about current industry trends and removing the coding phobia. The event linked to Youthon’21 Youth Leaders Foundation a highly successful initiative. Now YLC is under Mittal Alliance.",
+    desc: "Founded a coding community to help students learn and grow together, fostering collaboration and innovation.",
+    img: moment9,
   },
   {
     title: "The First Talk Show",
-    image: "/assets/moment10.jpg",
-    description:
-      "I was honored to deliver a founder talk in IPS Academy Indore for the First Time. It is the great honor for me to achieve this in such an early age.",
+    desc: "Organized my first talk show, bringing together industry leaders and students for knowledge sharing.",
+    img: moment10,
   },
   {
-    title: "Teaching @ Microsoft Student Community",
-    image: "/assets/moment11.jpg",
-    description:
-      "Yesterday I taught 80+ students at NIIT and NMIMS “The Fundamentals of Python”. I also provided certifications to each and every attendee powered by Microsoft.",
+    title: "Teaching a Microsoft Student Community",
+    desc: "Mentored students as part of the Microsoft Student Community, sharing my journey and practical tips.",
+    img: moment11,
   },
   {
     title: "Founding Coding Community",
-    image: "/assets/moment12.jpg",
-    description:
-      "Sarthak Mittal initiated coding community in NMIMS Indore, to empower juniors about current industry trends and removing the coding phobia. The event linked to Youthon’21 Youth Leaders Foundation a highly successful initiative. Now YLC is under Mittal Alliance.",
+    desc: "Founded a coding community to help students learn and grow together, fostering collaboration and innovation.",
+    img: moment12,
   },
 ];
 
-export default function LifeMoments() {
+const Struggle = () => {
   return (
-    <div className="bg-black text-white min-h-screen py-10 px-4">
-      <div className="text-center space-y-2">
-        <h1 className="text-4xl font-bold text-yellow-500">
+    <div className="min-h-screen bg-black font-montserrat px-4 py-10">
+      <div className="max-w-6xl mx-auto">
+        <h1 className="text-3xl md:text-3xl font-bold text-[#FFC94A] text-center tracking-wide mb-2">
           MY STRUGGLES MADE ME HUMBLE & GROUNDED
         </h1>
-        <p className="text-lg text-gray-300">
+        <div className="w-32 h-1 bg-[#FFC94A] mx-auto mb-6" />
+        <p className="text-white text-center text-lg md:text-xl mb-12">
           Some moments which made my life memorable
         </p>
-      </div>
-
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-10 max-w-7xl mx-auto">
-        {moments.map((moment, idx) => (
-          <div
-            key={idx}
-            className="bg-yellow-50 text-black shadow-md rounded-xl overflow-hidden"
-          >
-            <img
-              src={moment.image}
-              alt={moment.title}
-              className="w-full h-48 object-cover"
-            />
-            <div className="p-4">
-              <h3 className="text-xl font-semibold mb-2 text-yellow-800">
-                {moment.title}
-              </h3>
-              <p className="text-sm text-gray-700 leading-relaxed">
-                {moment.description}
-              </p>
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+          {struggles.map((item, idx) => (
+            <div
+              key={idx}
+              className="relative flex flex-col items-center h-80 w-full max-w-xs mx-auto"
+            >
+              {/* Card background split */}
+              <div className="absolute top-0 left-0 w-full h-full rounded-lg overflow-hidden shadow-lg">
+                <div className="h-[40%] bg-[#FFC94A] w-full" />
+                <div className="h-[60%] bg-white w-full" />
+              </div>
+              {/* Image at intersection */}
+              <div className="absolute left-1/2 top-[40%] -translate-x-1/2 -translate-y-1/2 z-10">
+                <img
+                  src={item.img}
+                  alt={item.title}
+                  className="w-24 h-24 object-cover rounded shadow-lg border-4 border-white"
+                />
+              </div>
+              {/* Text content */}
+              <div className="flex flex-col items-center justify-end h-full pt-[60%] pb-6 px-4 z-20 relative">
+                <h3 className="text-lg font-bold text-[#FFC94A] text-center mb-2 mt-12">
+                  {item.title}
+                </h3>
+                <p className="text-black text-center text-sm">
+                  {item.desc}
+                </p>
+              </div>
             </div>
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
     </div>
   );
-}
+};
+
+export default Struggle;
