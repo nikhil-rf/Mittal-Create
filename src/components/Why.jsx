@@ -296,7 +296,10 @@ const MittalBrandPage = () => {
           </div>
 
           {/* Vertical Divider */}
-          <div className="hidden lg:block w-px bg-[#D0A151] h-[223vh] mt-65 mx-auto"></div>
+          <div className="hidden lg:flex justify-center">
+            <div className="w-px bg-[#D0A151] self-stretch mx-auto" />
+          </div>
+
 
           {/* Right Side - Laptop with Screen */}
           <div className="flex flex-col items-center justify-center">
