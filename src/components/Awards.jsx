@@ -267,7 +267,7 @@ const MediaGrid = () => {
         <div className="mt-2 w-135 h-2 bg-[#D0A151] mx-auto" />
       </div>
 
-      <div className="w-full max-h-[1500px] grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 mt-23 relative overflow-hidden">
+      <div className="w-full max-h-[1500px] grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 mt-23 relative overflow-hidden isolate">
         {images.map((img, index) => (
           <div
   key={index}
