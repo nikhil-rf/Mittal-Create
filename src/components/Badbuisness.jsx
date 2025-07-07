@@ -69,7 +69,7 @@ const BadBusinessPage = () => {
         </div>
         
         {/* Bottom border line */}
-        <div className="w-full h-1.5 bg-gray-500 mt-16"></div>
+        <div className="w-[98%] h-1.5 bg-gray-500 mt-16"></div>
       </div>
     </div>
   );

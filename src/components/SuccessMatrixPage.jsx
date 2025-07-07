@@ -1,6 +1,6 @@
 import React from "react";
-import {SuccessCard} from "./SuccessCard"; // adjust path if needed
-import { SuccessCardDown } from "./SuccessCard";
+import CardGrid, {SuccessCard, ZigZagCards} from "./SuccessCard"; // adjust path if needed
+// import { SuccessCardDown } from "./SuccessCard";
 
 const SuccessMatrixPage = () => {
   return (
@@ -13,18 +13,11 @@ const SuccessMatrixPage = () => {
       </h1>
       <div className="max-w-6xl mx-auto flex flex-col items-center space-y-2">
         <div className="flex flex-wrap justify-center gap-0">
-    <SuccessCard />
-    <SuccessCard />
-    <SuccessCard />
-    <SuccessCard />
-  </div>
+      <CardGrid />
+        </div>
 
   <div className="flex flex-wrap justify-center gap-x-3 translate-x-[1px] -mt-6">
-    <SuccessCardDown />
-    <SuccessCardDown />
-    <SuccessCardDown />
-    <SuccessCardDown />
-    <SuccessCardDown />
+    {/* <ZigZagCards /> */}
   </div>
   
     </div>

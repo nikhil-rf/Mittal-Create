@@ -175,7 +175,7 @@ const AboutSarthak = () => {
           <img
             src={profileImg}
             alt="Sarthak Mittal"
-            className="w-[350px] h-full max-h-[800px] object-contain mt-25"
+            className="w-[350px] h-full max-h-[800px] object-contain mt-[100px]"
           />
         </div>
       </div>

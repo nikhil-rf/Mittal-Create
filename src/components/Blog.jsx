@@ -39,7 +39,7 @@ const BlogsInsightsPage = () => {
       {/* Black Chevron Fortress */}
     <div className="w-0 h-0 border-l-[80px] border-r-[80px] border-t-[50px] border-l-transparent border-r-transparent border-t-black mx-auto -mt-16 mb-12" />
 
-    <div className="max-w-6xl mx-auto mt-25">
+    <div className="relative max-w-6xl mx-auto mt-25">
 
         
         {/* Header Section */}
@@ -132,28 +132,29 @@ const BlogsInsightsPage = () => {
 
 
               {/* Author Profile Strip - Fixed at Bottom Right */}
-      <div className="ml-240 bottom-0 right-0 bg-black text-white rounded p-4 w-60 shadow-lg">
-        <div className="flex items-center space-x-3">
-          {/* Author Avatar */}
-          <div className="w-12 h-12 rounded-full overflow-hidden flex-shrink-0">
-            <img 
-              src={avatar}
-              alt="Sarthak Mittal" 
-              className="w-full h-full object-cover"
-            />
-          </div>
-          
-          {/* Author Info */}
-          <div className="flex-1">
-            <h3 className="text-white font-semibold text-sm mb-1">
-              Sarthak Mittal
-            </h3>
-            <p className="text-gray-300 text-xs">
-              Author
-            </p>
-          </div>
-        </div>
-      </div>
+  {/* Author Profile Strip - Bottom Right inside this page only */}
+  <div className="absolute bottom-0 right-0 -mb-9 -mr-9 bg-black text-white rounded p-4 w-60 shadow-lg">
+  <div className="flex items-center space-x-3">
+    {/* Author Avatar */}
+    <div className="w-12 h-12 rounded-full overflow-hidden flex-shrink-0">
+      <img 
+        src={avatar}
+        alt="Sarthak Mittal" 
+        className="w-full h-full object-cover"
+      />
+    </div>
+
+    {/* Author Info */}
+    <div className="flex-1">
+      <h3 className="text-white font-semibold text-sm mb-1">
+        Sarthak Mittal
+      </h3>
+      <p className="text-gray-300 text-xs">Author</p>
+    </div>
+  </div>
+</div>
+
+
 
           
 

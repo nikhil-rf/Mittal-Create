@@ -7,7 +7,7 @@ const RisePage = () => {
     <div className="min-h-screen bg-black text-white flex items-center justify-center p-8">
       <div className="max-w-6xl w-full">
         {/* Top border line */}
-        <div className="w-full h-1.5 bg-gray-500 mb-25"></div>
+        <div className="w-[98%] h-1.5 bg-gray-500 mb-25"></div>
         
         <div className="flex flex-col lg:flex-row items-center lg:items-start gap-12 lg:gap-16">
           {/* Content */}
@@ -63,7 +63,7 @@ const RisePage = () => {
         </div>
         
         {/* Bottom border line */}
-        <div className="w-full h-1.5 bg-gray-500 mt-28"></div>
+        <div className="w-[98%] h-1.5 bg-gray-500 mt-28"></div>
       </div>
     </div>
   );

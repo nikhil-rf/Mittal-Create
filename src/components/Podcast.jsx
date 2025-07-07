@@ -3,11 +3,10 @@ import IMG from '../assets/podcast.png';
 const PodcastPage = () => {
   return (
     <div className="min-h-screen bg-gray-50 py-16 px-4">
-      <div className="max-w-6xl mx-auto">
+              {/* Black Chevron Fortress */}
+        <div className="w-0 h-0 border-l-[80px] border-r-[80px] border-t-[50px] border-l-transparent border-r-transparent border-t-black mx-auto -mt-16" />
 
-        {/* Black Chevron Fortress */}
-        {/* <div className="w-0 h-0 border-l-[80px] border-r-[80px] border-t-[50px] border-l-transparent border-r-transparent border-t-black mx-auto -mt-4" /> */}
-
+      <div className="max-w-6xl mx-auto mt-12">
         {/* Header Section */}
         <div className="text-center mb-16">
           <h1 className="text-[#D0A151] text-2xl font-bold tracking-wider mb-2">

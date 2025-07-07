@@ -21,7 +21,8 @@ import MasteringSucess from './components/MasteringSucess';
 import Blog from './components/Blog';
 import Why from './components/Why';
 import Footer from './components/Footer';
-
+import CardGrid from './components/SuccessCard';
+import { ZigZagCards } from './components/SuccessCard';
 const App = () => {
   return (
     <div className="font-montserrat">

@@ -187,7 +187,6 @@
 // export default MittalBrandPage;
 
 
-
 import React from 'react';
 import laptop from '../assets/laptop.png';
 import laptopImage from '../assets/laptopImg.png';
@@ -209,7 +208,6 @@ const MittalBrandPage = () => {
         <div className="grid grid-cols-1 lg:grid-cols-[1fr_auto_1fr] gap-12 items-start">
           {/* Left Side - WHY MITTAL Breakdown */}
           <div>
-            {/* Header Title */}
             <div className="mb-12 ml-6">
               <h2 className="text-6xl md:text-7xl font-bold">
                 <span className="text-[#D0A151]">W</span>
@@ -221,7 +219,7 @@ const MittalBrandPage = () => {
               </h2>
               <div className="mt-4">
                 <p className="text-white text-lg">Creating World-Class Brands</p>
-                <div className="w-120 h-1 bg-[#D0A151] mt-2"></div>
+                <div className="w-32 h-1 bg-[#D0A151] mt-2"></div>
               </div>
             </div>
 
@@ -233,56 +231,60 @@ const MittalBrandPage = () => {
                   title: 'MEANING',
                   quote: `"We're in the business of not just making what happens, but directions."`,
                   author: 'Sanjit + GenOps',
-                  text: 'Discover the soul of the brand - its deeper purpose, vision, and mission. Meaning drives impact.'
+                  text: 'Discover the soul of the brand - its deeper purpose, vision, and mission. Meaning drives impact.',
                 },
                 {
                   letter: 'I',
                   title: 'INTEGRITY',
                   quote: `"Integrity is doing the right thing, even when no one is watching."`,
                   author: 'C.S. Lewis',
-                  text: 'Audit the alignment between your message and your actions — across online, offline, and internal culture.'
+                  text: 'Audit the alignment between your message and your actions — across online, offline, and internal culture.',
                 },
                 {
                   letter: 'T',
                   title: 'TRUST',
                   quote: `"Trust is built with consistency."`,
                   author: 'Lincoln Chafee',
-                  text: 'Build and measure reputation, reviews, and credibility — how others speak about you matters more than what you say.'
+                  text: 'Build and measure reputation, reviews, and credibility — how others speak about you matters more than what you say.',
                 },
                 {
                   letter: 'T',
                   title: 'TRANSPARENCY',
                   quote: `"Honesty and transparency make you vulnerable. Be honest and transparent anyway."`,
                   author: 'Mother Teresa',
-                  text: 'Showcase authentic communication, open processes, and ethical storytelling. Vulnerability builds connection.'
+                  text: 'Showcase authentic communication, open processes, and ethical storytelling. Vulnerability builds connection.',
                 },
                 {
                   letter: 'A',
                   title: 'AUTHORITY',
                   quote: `"Become the expert it's the authority by the team — and crafts will follow."`,
                   author: 'Don Kennedy',
-                  text: 'Develop your thought leadership, recognition, and influence in the market or community you serve.'
+                  text: 'Develop your thought leadership, recognition, and influence in the market or community you serve.',
                 },
                 {
                   letter: 'L',
                   title: 'LEGACY',
                   quote: `"Carve your name on hearts, not tombstones."`,
                   author: 'Shannon Alder',
-                  text: 'Architect a future-ready brand that leaves a meaningful mark, scales sustainably, and transcends trends.'
-                }
+                  text: 'Architect a future-ready brand that leaves a meaningful mark, scales sustainably, and transcends trends.',
+                },
               ].map((item, index) => (
-                <div key={index} className="flex gap-6 items-start">
-<div
-  className="text-[130px] font-bold w-28 text-transparent bg-clip-text leading-none"
-  style={{
-    backgroundImage:
-      'radial-gradient(circle, #fff8e1 15%, #D0A151 40%, #D0A151 100%)',
-  }}
->
-  {item.letter}
-</div>
- 
-                  <div>
+                <div key={index} className="grid grid-cols-[auto_1fr] gap-6 items-start">
+                  {/* Letter */}
+                  <div className="w-28 min-w-[100px]">
+                    <div
+                      className="text-[130px] font-bold text-transparent bg-clip-text leading-none"
+                      style={{
+                        backgroundImage:
+                          'radial-gradient(circle, #fff8e1 15%, #D0A151 40%, #D0A151 100%)',
+                      }}
+                    >
+                      {item.letter}
+                    </div>
+                  </div>
+
+                  {/* Text */}
+                  <div className="pt-4">
                     <h3 className="text-xl font-bold text-[#D0A151] mb-2">{item.title}</h3>
                     <p className="text-gray-400 italic text-sm mb-1">{item.quote}</p>
                     <p className="text-gray-500 text-xs mb-2">— {item.author}</p>
@@ -294,11 +296,11 @@ const MittalBrandPage = () => {
           </div>
 
           {/* Vertical Divider */}
-          <div className="hidden lg:block w-px bg-[#D0A151] h-[210vh] mx-auto mt-59"></div>
+          <div className="hidden lg:block w-px bg-[#D0A151] h-[223vh] mt-65 mx-auto"></div>
 
           {/* Right Side - Laptop with Screen */}
           <div className="flex flex-col items-center justify-center">
-            <div className="relative mt-60 shadow-[#D0A151]">
+            <div className="relative mt-55 shadow-[#D0A151]">
               {/* Laptop Base */}
               <img src={laptop} alt="Laptop" className="w-90 max-w-lg" />
 
@@ -313,15 +315,16 @@ const MittalBrandPage = () => {
             </div>
 
             {/* Text Content */}
-            <div className="text-center mb-25">
+            <div className="text-center mt-1">
               <h3
-  className="text-2xl font-bold text-transparent mb-2 bg-clip-text"
-  style={{
-    backgroundImage: 'linear-gradient(to bottom, #D0A151 0%, #D0A151 40%, #ffffff 55%, #D0A151 70%, #D0A151 100%)',
-  }}
->
-  BEHIND THE BADASS BRANDS
-</h3>
+                className="text-2xl font-bold text-transparent mb-2 bg-clip-text"
+                style={{
+                  backgroundImage:
+                    'linear-gradient(to bottom, #D0A151 0%, #D0A151 40%, #ffffff 55%, #D0A151 70%, #D0A151 100%)',
+                }}
+              >
+                BEHIND THE BADASS BRANDS
+              </h3>
 
               <p className="text-white text-lg font-semibold mb-8">
                 INNOVATIVE INSIGHTS FROM 100+ ICONIC<br />
@@ -341,3 +344,4 @@ const MittalBrandPage = () => {
 };
 
 export default MittalBrandPage;
+

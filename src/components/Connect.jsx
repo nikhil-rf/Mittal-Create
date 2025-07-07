@@ -29,13 +29,13 @@ const Connect = () => {
 
       {/* Main content */}
       <div className="flex flex-col items-center justify-center">
-        <h2 className="text-3xl md:text-4xl font-bold text-[#CDA349] text-center mb-2">
+        <h2 className="text-3xl md:text-4xl font-bold text-[#CDA349] text-center mb-1">
           CONNECT WITH ME
         </h2>
         <div className="h-1.5 w-82 bg-[#CDA349] mb-10"></div>
 
         <div className="border border-[#CDA349] rounded-xl px-6 py-8 bg-white shadow-md">
-          <p className="text-center text-black text-lg font-medium mb-6">
+          <p className="text-center text-black text-lg font-medium mb-5">
             Connect with Sarthak
           </p>
           <div className="flex flex-wrap justify-center gap-6">

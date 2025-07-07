@@ -1,133 +1,5 @@
-// import React from 'react';
-// import dummyImage from '../assets/about.png'; // Placeholder image
-
-// const SuccessMatrix = () => {
-//   const cards = Array(9).fill({
-//     title: '15,000,000+ PEOPLE REACHED',
-//     description:
-//       'OVER 1.5 CRORE CUMULATIVE DIGITAL IMPRESSIONS ACROSS PLATFORMS THROUGH BRANDING, EDUCATION, AND MARKETING CAMPAIGNS.',
-//   });
-
-//   return (
-//     <div className="min-h-screen bg-black py-16 px-4 text-white flex flex-col items-center">
-//       {/* Title */}
-//       <div className="text-left w-full max-w-7xl mb-10">
-//         <h2 className="text-5xl font-extrabold text-yellow-400 tracking-tight">SUCCESS MATRIX</h2>
-//         <div className="w-48 h-2 bg-yellow-400 mt-2 rounded-sm" />
-//       </div>
-
-//       {/* Cards Grid */}
-//       <div className="w-full max-w-7xl flex flex-col items-center">
-//         {/* Top Row: 4 cards */}
-//         <div className="flex flex-row justify-center gap-6 mb-[-40px] z-20">
-//           {cards.slice(0, 4).map((card, idx) => (
-//             <div
-//               key={idx}
-//               className="relative w-44 h-[270px] flex flex-col items-center bg-black border-4 border-yellow-400 rounded-t-xl overflow-visible shadow-xl"
-//             >
-//               {/* Card Image */}
-//               <div className="w-full h-28 overflow-hidden rounded-t-xl">
-//                 <img src={dummyImage} alt="Profile" className="w-full h-full object-cover" />
-//               </div>
-//               {/* Card Content */}
-//               <div className="flex-1 w-full bg-black flex flex-col items-center px-2 pt-2 pb-6">
-//                 <h3 className="font-bold text-xs text-yellow-400 mb-1 text-center tracking-wide">{card.title}</h3>
-//                 <p className="text-[10px] text-white text-center leading-snug tracking-wide">{card.description}</p>
-//               </div>
-//               {/* Perfect Triangle Bottom */}
-//               <div className="absolute left-1/2 -bottom-4 transform -translate-x-1/2 w-44 h-6 overflow-visible z-10">
-//                 <svg viewBox="0 0 176 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-full h-full">
-//                   <polygon points="88,24 0,0 176,0" fill="#000" stroke="#FFD700" strokeWidth="4" />
-//                 </svg>
-//               </div>
-//             </div>
-//           ))}
-//         </div>
-//         {/* Bottom Row: 5 cards */}
-//         <div className="flex flex-row justify-center gap-6 mt-0 z-10">
-//           {cards.slice(4).map((card, idx) => (
-//             <div
-//               key={idx}
-//               className="relative w-44 h-[270px] flex flex-col items-center bg-black border-4 border-yellow-400 rounded-t-xl overflow-visible shadow-xl"
-//             >
-//               {/* Card Image */}
-//               <div className="w-full h-28 overflow-hidden rounded-t-xl">
-//                 <img src={dummyImage} alt="Profile" className="w-full h-full object-cover" />
-//               </div>
-//               {/* Card Content */}
-//               <div className="flex-1 w-full bg-black flex flex-col items-center px-2 pt-2 pb-6">
-//                 <h3 className="font-bold text-xs text-yellow-400 mb-1 text-center tracking-wide">{card.title}</h3>
-//                 <p className="text-[10px] text-white text-center leading-snug tracking-wide">{card.description}</p>
-//               </div>
-//               {/* Chevron Bottom */}
-//               <div className="absolute left-1/2 -bottom-4 transform -translate-x-1/2 w-12 h-5 overflow-visible z-10">
-//                 <svg viewBox="0 0 48 10" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-full h-full">
-//                   <polygon points="0,0 24,10 48,0" fill="#000" stroke="#FFD700" strokeWidth="3" />
-//                 </svg>
-//               </div>
-//             </div>
-//           ))}
-//         </div>
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default SuccessMatrix;
 
 
-
-
-
-
-
-
-
-// // components/SuccessCard.jsx
-// import React from "react";
-// import sampleImage from "../assets/about.png"; // Replace with your image
-
-// const SuccessCard = () => {
-//   return (
-//     <div className="w-72">
-//       <svg
-//         viewBox="0 0 100 120"
-//         className="w-full h-auto"
-//         preserveAspectRatio="xMidYMin slice"
-//       >
-//         {/* Polygon Shape */}
-//         <polygon
-//           points="0,0 100,0 100,100 50,120 0,100"
-//           className="fill-black stroke-yellow-500"
-//           strokeWidth="2"
-//         />
-
-//         {/* Embedded foreignObject for actual HTML content */}
-//         <foreignObject x="0" y="0" width="100" height="100">
-//           <div className="w-full h-full flex flex-col items-center justify-start px-2 py-4 text-white text-center">
-//             <img
-//               src={sampleImage}
-//               alt="Sarthak Mittal"
-//               className="w-full h-32 object-cover rounded"
-//             />
-//             <h3 className="text-sm font-bold mt-1 text-[#CE9D4B]">
-//               15,000,000+ PEOPLE REACHED
-//             </h3>
-//             <p className="text-xs mt-1 px-1 leading-snug">
-//               Over 1.5 crore cumulative digital impressions across platforms
-//               through branding, education, and marketing campaigns.
-//             </p>
-//           </div>
-//         </foreignObject>
-//       </svg>
-//     </div>
-//   );
-// };
-
-// export default SuccessCard;
-
-import React from "react";
-import sampleImage from "../assets/about.png"; // Replace with your image
 
 
 // const SuccessCard = () => {
@@ -147,9 +19,41 @@ import sampleImage from "../assets/about.png"; // Replace with your image
 //     </div>
 //   );
 // };
-const SuccessCard = () => {
+
+
+import React from "react";
+import sm1 from "../assets/sm1.png";
+import sm2 from "../assets/sm2.png";
+import sm3 from "../assets/sm3.png";
+import sm4 from "../assets/sm4.png";
+
+const cardData = [
+  {
+    image: sm1,
+    title: "32,000+ LinkedIn Connections",
+    description: "Strong network of CXOs, entrepreneurs, and professionals  actively engaging with thought leadership and brand content.",
+  },
+  {
+    image: sm2,
+    title: "15,000,000+ People Reached",
+    description: "Over 1.5 Crore cumulative digital impressions across platforms  through branding, education, and marketing campaigns.",
+  },
+  {
+    image: sm3,
+    title: "12,000+ Newsletter Subscribers",
+    description: "Consistent audience consuming insights, updates, and strategies  via high-engagement email campaigns.",
+  },
+  {
+    image: sm4,
+    title: "50,000+ Students Impacted",
+    description: "Learners reached through workshops, mentorships, webinars,  and academic outreach programs.",
+  },
+];
+
+const SuccessCard = ({ image, title, description }) => {
   return (
-    <div className="h-[350px] w-[200px] mr-4">
+    <div className="relative h-[350px] w-[200px]">
+      {/* SVG Background */}
       <svg
         viewBox="0 0 100 120"
         className="w-full h-full"
@@ -161,31 +65,175 @@ const SuccessCard = () => {
           strokeWidth="2"
         />
       </svg>
+
+      {/* Card Content */}
+      <div className="absolute inset-0 flex flex-col items-center text-white px-3 py-2">
+        {/* Image */}
+        <img
+          src={image}
+          alt={title}
+          className="w-[180px] h-[170px] object-cover rounded-md mb-2 mt-2"
+        />
+
+        
+        <div className="flex flex-col items-center text-center mt-1">
+          <h3 className="text-sm text-[#D0A151] font-bold leading-tight">
+            {title}
+          </h3>
+          <p className="text-xs mt-1 leading-snug">{description}</p>
+        </div>
+      </div>
     </div>
   );
 };
 
-const SuccessCardDown = () => {
-   return (
-    <div className="h-[350px] w-[200px] mr-3.5">
+
+
+
+
+
+// const SuccessCardDown = () => {
+//    return (
+//     <div className="h-[350px] w-[200px] mr-3.5">
+//       <svg
+//         viewBox="0 0 100 120"
+//         className="w-full h-full rotate-180"
+//         preserveAspectRatio="none"
+//       >
+//         {/* Flipped Polygon */}
+//         <polygon
+//           points="0,0 100,0 100,100 50,120 0,100"
+//           className="fill-black stroke-yellow-500"
+//           strokeWidth="2"
+//         />
+//       </svg>
+//     </div>
+//   );
+// };
+
+
+import sm5 from "../assets/sm5.png";
+import sm6 from "../assets/sm6.png";
+import sm8 from "../assets/sm8.png";
+import sm9 from "../assets/sm9.png";
+import logo1 from "../assets/logo1.png";
+import logo2 from "../assets/logo2.png";
+const downCardData = [
+  {
+    image: sm5,
+    title: "3,600+ YouTube Subscribers",
+    description: "Educational video content creating continuous impact and  community growth.",
+  },
+  {
+    image: sm6,
+    title: "75+ Global Projects  Delivered",
+    description: "Successful branding, digital, and consulting projects executed  across India, USA, UK, Spain, Dubai, and Australia.",
+  },
+  {
+    image: [logo1, logo2],
+    title: "2 Incorporated  Companies",
+    description: "Leading ventures in brandtech, digital transformation, and  consulting.",
+    isDualImage: true,
+  },
+  {
+    image: sm8,
+    title: "1 Community  Platform (Badverse)",
+    description: "Empowering solopreneurs, students, and creators with  mentorship and digital tools.",
+  },
+  {
+    image: sm9,
+    title: "1 Handicraft Firm  (Anjucreations)",
+    description: "Promoting Indian craftsmanship globally through sustainable and  ethical commerce.",
+  },
+];
+
+
+const SuccessCardDown = ({ image, title, description, isDualImage }) => {
+  return (
+    <div className="relative h-[350px] w-[200px]">
+      {/* Flipped SVG background */}
       <svg
         viewBox="0 0 100 120"
         className="w-full h-full rotate-180"
         preserveAspectRatio="none"
       >
-        {/* Flipped Polygon */}
         <polygon
           points="0,0 100,0 100,100 50,120 0,100"
           className="fill-black stroke-yellow-500"
           strokeWidth="2"
         />
       </svg>
+
+      {/* Card Content */}
+      <div className="absolute inset-0 flex flex-col items-center mt-9 text-white px-3 py-2 justify-between">
+        {/* Top: Text */}
+        <div className="flex flex-col items-center text-center mt-4">
+          <h3 className="text-sm text-[#D0A151] font-bold leading-tight">
+            {title}
+          </h3>
+          <p className="text-xs mt-1 leading-snug">{description}</p>
+        </div>
+
+        {/* Bottom: Image or Dual Image */}
+        <div className="mb-2">
+          {isDualImage ? (
+            <div className="flex gap-2">
+              <img
+                src={image[0]}
+                alt="logo1"
+                className="w-[100px] h-[80px] object-contain rounded"
+              />
+              <img
+                src={image[1]}
+                alt="logo2"
+                className="w-[80px] h-[60px] object-contain rounded"
+              />
+            </div>
+          ) : (
+            <img
+              src={image}
+              alt={title}
+              className="w-[190px] h-[150px] object-contain"
+            />
+          )}
+        </div>
+      </div>
+    </div>
+  );
+};
+const ZigZagCards = () => {
+  return (
+    <div className="flex flex-col items-center bg-black py-10">
+      {/* Top Cards (SuccessCard) */}
+      <div className="flex gap-4 mb-6 flex-wrap justify-center">
+        {cardData.map((card, idx) => (
+          <SuccessCard
+            key={idx}
+            image={card.image}
+            title={card.title}
+            description={card.description}
+          />
+        ))}
+      </div>
+
+      {/* Down Cards (SuccessCardDown) */}
+      <div className="flex gap-4 mt-6 flex-wrap justify-center">
+        {downCardData.map((card, idx) => (
+          <SuccessCardDown
+            key={idx}
+            image={card.image}
+            title={card.title}
+            description={card.description}
+            isDualImage={card.isDualImage}
+          />
+        ))}
+      </div>
     </div>
   );
 };
 
 
+export default ZigZagCards;
 
 
-export {SuccessCard,SuccessCardDown } ;
-
+export { SuccessCard, SuccessCardDown, ZigZagCards };

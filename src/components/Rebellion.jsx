@@ -109,7 +109,7 @@ const RebellionPage = () => {
   return (
     <div className="min-h-screen bg-black text-white flex items-center justify-center p-20">
       <div className="max-w-6xl w-full">
-        <div className="w-[110%] h-1.5 bg-gray-500 -ml-12 mb-25"></div>
+        <div className="w-[108%] h-1.5 bg-gray-500 -ml-12 mb-25"></div>
         
 
         <div className="flex flex-col lg:flex-row items-center lg:items-start gap-12 lg:gap-16 mt-25">
