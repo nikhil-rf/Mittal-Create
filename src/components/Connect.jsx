@@ -19,7 +19,7 @@ const Connect = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-white px-4 pt-0 pb-20 relative">
+    <div className="h-full bg-white px-4 pt-0 pb-20 relative">
       
       {/* Chevron at the top */}
       <div className="w-0 h-0 border-x-[80px] border-x-transparent border-t-[40px] border-t-black absolute top-0 left-1/2 transform -translate-x-1/2" />
@@ -29,10 +29,10 @@ const Connect = () => {
 
       {/* Main content */}
       <div className="flex flex-col items-center justify-center">
-        <h2 className="text-3xl md:text-4xl font-bold text-[#CDA349] text-center mb-1">
+        <h2 className="text-4xl md:text-5xl font-bold text-[#D0A151] text-center mb-1">
           CONNECT WITH ME
         </h2>
-        <div className="h-1.5 w-82 bg-[#CDA349] mb-10"></div>
+        <div className="h-1.5 w-[38%] bg-[#D0A151] mb-10"></div>
 
         <div className="border border-[#CDA349] rounded-xl px-6 py-8 bg-white shadow-md">
           <p className="text-center text-black text-lg font-medium mb-5">
@@ -42,7 +42,7 @@ const Connect = () => {
             {logos.map((logo, index) => (
               <div
                 key={index}
-                className="border border-[#CDA349] rounded-lg p-4 w-20 h-20 flex items-center justify-center bg-white hover:scale-105 transition-transform"
+                className="border border-[#CDA349] rounded-lg p-4 w-30 h-30 flex items-center justify-center bg-white hover:scale-105 transition-transform"
               >
                 <img
                   src={logo.src}

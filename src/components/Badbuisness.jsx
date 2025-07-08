@@ -12,7 +12,7 @@ const BadBusinessPage = () => {
           {/* Profile Image */}
           <div className="flex-shrink-0">
             <div className="w-80 h-96 mt-11 bg-gray-800 border-4 border-[#CE9D4B] rounded-sm overflow-hidden">
-              {/* Replace this div with your actual image */}
+              
               <img 
                 src={BadImg}
                 alt="Team Photo" 
@@ -32,9 +32,10 @@ const BadBusinessPage = () => {
           
           {/* Content */}
           <div className="flex-1 max-w-2xl">
-            <h1 className="text-4xl lg:text-4xl text-center font-bold text-[#CE9D4B] mb-8 tracking-wide">
-              FROM BADBUSINESS TO BADVERSE
-            </h1>
+            <h1 className="text-4xl lg:text-5xl text-center font-bold text-[#CE9D4B] mb-8 whitespace-nowrap">
+  FROM BADBUSINESS TO BADVERSE
+</h1>
+
             
             <div className="space-y-3 text-lg lg:text-xl leading-relaxed">
               <p className='font-thin'>

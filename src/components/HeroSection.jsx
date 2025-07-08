@@ -161,7 +161,7 @@ const HeroSection = () => {
       <div className="absolute inset-0 bg-black opacity-90"></div>
 
       {/* NAVBAR */}
-      <nav className="absolute top-0 left-0 w-full flex justify-between items-center px-6 py-2 text-white h-20 bg-black/20  z-50">
+      <nav className="absolute top-0 left-0 w-full flex justify-between items-center px-6 py-2 text-white h-20 bg-black/0  z-50">
         <div className="flex items-center relative z-10 mt-3">
           <img
             src={logo}
@@ -169,7 +169,7 @@ const HeroSection = () => {
             className="h-20 w-auto -my-2 object-contain"
           />
         </div>
-        <ul className="hidden md:flex gap-6 text-sm z-10">
+        <ul className="hidden md:flex gap-6 text-base z-10">
           {['Blogs', 'Events', 'Podcasts', 'Pricing', 'Books', 'Mentors', 'History', 'Careers', 'FAQs'].map((item) => (
             <li key={item} className="cursor-pointer hover:text-yellow-400">{item}</li>
           ))}
@@ -197,21 +197,23 @@ const HeroSection = () => {
 
       {/* Content */}
       <div className="relative z-10 max-w-5xl mx-auto">
-        <h1 className="text-4xl md:text-6xl font-bold text-[#CE9D4B] mb-2">
+        <h1 className="text-4xl md:text-5xl font-bold text-[#CE9D4B] mb-2">
           MITTAL <span className="text-white">CREATE</span>
         </h1>
-        <h2 className="text-xl md:text-2xl text-[#CE9D4B] font-semibold mb-6">
+        <h2 className="text-xl md:text-2xl text-[#CE9D4B] font-bold mb-4 mt-5">
           VISIONARY CEOS & INDUSTRY-LEADING ENTERPRISES
         </h2>
-        <p className="text-lg md:text-xl font-medium mb-4">
+        <p className="text-lg md:text-xl font-normal mb-2 mt-9 ">
           I BUILD ICONIC PERSONAL BRANDS & REDEFINE CORPORATE IDENTITIES
         </p>
-        <p className="text-base md:text-lg mb-8 text-gray-300">
+        <p className="text-base md:text-lg mb-4 font-normal text-gray-300 ">
           Blending Soul & Strategy to Shape Legacy, Influence, and Impact
         </p>
 
+
+
         {/* Media Mentions */}
-        <div className="text-[#CE9D4B] mb-2 font-medium">
+        <div className="text-[#CE9D4B] mb-3 mt-13 font-normal">
           MY WORK HAS REACHED AUDIENCES AT
         </div>
 
@@ -239,7 +241,7 @@ const HeroSection = () => {
 
         {/* Trusted By Section */}
         <div className="text-center mt-12">
-          <div className="text-[#CE9D4B] font-semibold text-sm mb-2">
+          <div className="text-[#CE9D4B] font-normal text-sm mb-2">
             TRUSTED BY
           </div>
 

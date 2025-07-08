@@ -229,7 +229,7 @@ const TestimonialsSection = () => {
               key={index}
               onClick={() => goToSlide(index)}
               className={`w-3 h-3 rounded-full transition-all duration-300 ${
-                index === currentSlide ? 'bg-black' : 'bg-gray-400 hover:bg-gray-600'
+                index === currentSlide ? 'bg-gray-400' : 'bg-black hover:bg-gray-600'
               }`}
             />
           ))}
@@ -237,7 +237,7 @@ const TestimonialsSection = () => {
 
         {/* More Testimonials Button */}
         <div className="text-center">
-          <button className="bg-black text-white px-18 py-3 text-lg font-medium hover:bg-gray-800 transition-colors duration-300">
+          <button className="bg-black cursor-pointer text-white px-18 py-3 text-lg font-medium hover:bg-gray-800 transition-colors duration-300">
             More Testimonials
           </button>
         </div>

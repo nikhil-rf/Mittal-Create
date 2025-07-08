@@ -114,7 +114,7 @@ const RebellionPage = () => {
 
         <div className="flex flex-col lg:flex-row items-center lg:items-start gap-12 lg:gap-16 mt-25">
           {/* Profile Image */}
-          <div className="flex-shrink-0 mt-15">
+          <div className="flex-shrink-0 mt-10">
             <div className="w-80 h-75 bg-gray-800 border-4 border-[#CE9D4B] rounded-sm overflow-hidden">
               <img 
                 src={rebellionImg}
@@ -132,7 +132,7 @@ const RebellionPage = () => {
           
           
           <div className="flex-1 max-w-2xl">
-            <h1 className="text-2xl lg:text-4xl font-bold text-center text-[#CE9D4B] mb-8 tracking-wide">
+            <h1 className="text-2xl lg:text-5xl font-bold text-center text-[#CE9D4B] mb-8 tracking-wide">
               THE REBELLION YEARS
             </h1>
             

@@ -1,5 +1,5 @@
 import React from "react";
-import CardGrid, {SuccessCard, ZigZagCards} from "./SuccessCard"; // adjust path if needed
+import CardGrid, {SuccessCard, ZigZagCards} from "./SuccessCard"; 
 // import { SuccessCardDown } from "./SuccessCard";
 
 const SuccessMatrixPage = () => {

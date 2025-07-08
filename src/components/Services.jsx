@@ -113,7 +113,7 @@ const ServicesPage = () => {
           <div className="text-center">
             <button
               onClick={() => setShowAll(true)}
-              className="bg-[#D0A151] text-black rounded-2xl px-8 py-3 font-bold text-lg hover:bg-[#D0A151] transition-colors duration-300 transform hover:scale-105"
+              className="bg-[#D0A151] text-black cursor-pointer rounded-2xl px-8 py-3 font-bold text-lg hover:bg-[#D0A151] transition-colors duration-300 transform hover:scale-105"
             >
               READ MORE
             </button>
@@ -125,7 +125,7 @@ const ServicesPage = () => {
           <div className="text-center">
             <button
               onClick={() => setShowAll(false)}
-              className="bg-[#D0A151] text-white px-8 py-3 font-bold text-lg hover:bg-[#D0A151] transition-colors duration-300 transform hover:scale-105"
+              className="bg-[#D0A151] text-white px-8 py-3 font-bold text-lg cursor-pointer rounded-2xl transition-colors duration-300 transform hover:scale-105"
             >
               SHOW LESS
             </button>

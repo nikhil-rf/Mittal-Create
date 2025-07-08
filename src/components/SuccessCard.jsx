@@ -61,7 +61,7 @@ const SuccessCard = ({ image, title, description }) => {
       >
         <polygon
           points="0,0 100,0 100,100 50,120 0,100"
-          className="fill-black stroke-yellow-500"
+          className="fill-black stroke-[#D0A151]"
           strokeWidth="2"
         />
       </svg>
@@ -72,15 +72,15 @@ const SuccessCard = ({ image, title, description }) => {
         <img
           src={image}
           alt={title}
-          className="w-[180px] h-[170px] object-cover rounded-md mb-2 mt-2"
+          className="w-[180px] h-[140px] object-cover rounded-md mb-2 mt-2"
         />
 
         
         <div className="flex flex-col items-center text-center mt-1">
-          <h3 className="text-sm text-[#D0A151] font-bold leading-tight">
+          <h3 className="text-sm text-[#D0A151] items-end font-bold leading-tight">
             {title}
           </h3>
-          <p className="text-xs mt-1 leading-snug">{description}</p>
+          <p className="text-xs ml-3 text-left tracking-widest leading-snug">{description}</p>
         </div>
       </div>
     </div>
@@ -131,7 +131,7 @@ const downCardData = [
   },
   {
     image: [logo1, logo2],
-    title: "2 Incorporated  Companies",
+    title: "2 Incorporated Companies",
     description: "Leading ventures in brandtech, digital transformation, and  consulting.",
     isDualImage: true,
   },
@@ -159,7 +159,7 @@ const SuccessCardDown = ({ image, title, description, isDualImage }) => {
       >
         <polygon
           points="0,0 100,0 100,100 50,120 0,100"
-          className="fill-black stroke-yellow-500"
+          className="fill-black stroke-[#D0A151]"
           strokeWidth="2"
         />
       </svg>
@@ -171,7 +171,7 @@ const SuccessCardDown = ({ image, title, description, isDualImage }) => {
           <h3 className="text-sm text-[#D0A151] font-bold leading-tight">
             {title}
           </h3>
-          <p className="text-xs mt-1 leading-snug">{description}</p>
+          <p className="text-xs mt-2 text-left tracking-widest leading-snug">{description}</p>
         </div>
 
         {/* Bottom: Image or Dual Image */}
@@ -201,11 +201,13 @@ const SuccessCardDown = ({ image, title, description, isDualImage }) => {
     </div>
   );
 };
+
+
 const ZigZagCards = () => {
   return (
     <div className="flex flex-col items-center bg-black py-10">
       {/* Top Cards (SuccessCard) */}
-      <div className="flex gap-4 mb-6 flex-wrap justify-center">
+      <div className="flex gap-4 mb-1 flex-wrap justify-center">
         {cardData.map((card, idx) => (
           <SuccessCard
             key={idx}
@@ -217,7 +219,7 @@ const ZigZagCards = () => {
       </div>
 
       {/* Down Cards (SuccessCardDown) */}
-      <div className="flex gap-4 mt-6 flex-wrap justify-center">
+      <div className="flex gap-4 mt-1 flex-wrap justify-center">
         {downCardData.map((card, idx) => (
           <SuccessCardDown
             key={idx}

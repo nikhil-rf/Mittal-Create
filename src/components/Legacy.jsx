@@ -17,7 +17,7 @@ const LegacyPage = () => {
       <div className="relative z-10 min-h-screen flex flex-col justify-center items-center text-white px-8">
         <div className="max-w-4xl w-full text-center">
           {/* Title */}
-          <h1 className="text-5xl lg:text-4xl font-bold text-[#CE9D4B] mb-16 tracking-wide">
+          <h1 className="text-5xl lg:text-5xl font-bold text-[#CE9D4B] mb-16 tracking-wide">
             FROM LEGACY TO LEADERSHIP
           </h1>
 
@@ -36,7 +36,7 @@ const LegacyPage = () => {
 
           {/* Button */}
           <div className="mt-16">
-            <button className="px-5 py-2 border-2 border-[#CE9D4B] text-[#CE9D4B] bg-transparent hover:bg-[#CE9D4B] hover:text-black transition-all duration-300 rounded-full  font-medium tracking-wide">
+            <button className="px-5 py-2 border-2 border-[#CE9D4B] text-[#CE9D4B] cursor-pointer bg-transparent  hover:text-white transition-all duration-300 rounded-full  font-medium tracking-wide">
               View Entire Journey
             </button>
           </div>
