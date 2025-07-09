@@ -135,7 +135,7 @@ const AboutSarthak = () => {
 
           {/* Full-width Info Box */}
           <div className="w-full max-w-[1600px] ml-20 border-2 border-black rounded-xl p-6 bg-white relative z-10">
-            <div className="space-y-1 text-sm md:text-base text-black leading-relaxed">
+            <div className="space-y-3 text-sm md:text-base text-black leading-relaxed">
               {[
                 <>
                   <span className="font-bold">
@@ -204,12 +204,11 @@ const AboutSarthak = () => {
         </div>
 
         {/* Right Image */}
-        {/* Right Image */}
         <div className="hidden md:flex justify-center items-center ml-10">
           <img
             src={profileImg}
             alt="Sarthak Mittal"
-            className="w-[350px] h-full max-h-[800px] object-contain mt-[100px]"
+            className="w-[350px] h-full max-h-[800px] object-contain mt-[20px]"
           />
         </div>
       </div>

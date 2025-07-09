@@ -212,7 +212,7 @@ const HeroSection = () => {
           MITTAL <span className="text-white">CREATE</span>
         </h1>
         <h2 className="text-xl md:text-2xl text-[#CE9D4B] font-bold mb-4 mt-5">
-          VISIONARY CEOS & INDUSTRY-LEADING ENTERPRISES
+          VISIONARY CEO'S & INDUSTRY-LEADING ENTERPRISES
         </h2>
         <p className="text-lg md:text-xl font-normal mb-2 mt-9 ">
           I BUILD ICONIC PERSONAL BRANDS & REDEFINE CORPORATE IDENTITIES
