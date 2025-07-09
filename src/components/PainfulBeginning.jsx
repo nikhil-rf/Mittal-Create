@@ -13,7 +13,7 @@ const PainfulBeginning = () => {
       <h2 className="text-center text-3xl md:text-5xl font-bold mb-2">
         A <span className="text-[#CE9D4B] italic">PAINFUL</span> BEGINNING
       </h2>
-      <div className="h-1 w-[52%] bg-[#CE9D4B] mx-auto mb-12"></div>
+      <div className="h-1 w-[45%] bg-[#CE9D4B] mx-auto mb-12"></div>
 
       {/* Content */}
       <div className="max-w-6xl mx-auto space-y-6 text-sm md:text-base leading-7 text-justify">

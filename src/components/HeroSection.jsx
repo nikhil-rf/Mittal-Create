@@ -26,8 +26,6 @@
 // import f10 from "../assets/f10.png";
 // import f11 from "../assets/f11.png";
 
-
-
 // const logos = [
 //   t1, t2, t3, t4, t5, t6, t7,
 //   t8, t9,
@@ -86,7 +84,6 @@
 //   ))}
 // </div>
 
-
 //         {/* Trusted By Section */}
 //         <div className="text-center mt-12">
 //           <div className="text-[#CE9D4B] font-semibold text-sm mb-2">
@@ -96,7 +93,6 @@
 //         <p className="text-xs md:text-sm text-gray-400 max-w-full mx-auto px-4 mb-4 whitespace-nowrap overflow-x-auto">
 //           Industry Icons | Conscious Companies | Soulful Celebrities | Internet Influencers | Passionate Professionals | Solopreneurs | Industrialists | Legacy-Driven Leaders
 //         </p>
-
 
 //        <div className="overflow-x-auto whitespace-nowrap px-4">
 //         <div className="inline-flex gap-4 items-center">
@@ -119,10 +115,9 @@
 
 // export default HeroSection;
 
-
-import React from 'react';
+import React from "react";
 import logo from "../assets/mittal.png";
-import bgImage from '../assets/bg.png';
+import bgImage from "../assets/bg.png";
 import t1 from "../assets/t1.png";
 import t2 from "../assets/t2.png";
 import t3 from "../assets/t3.png";
@@ -170,24 +165,40 @@ const HeroSection = () => {
           />
         </div>
         <ul className="hidden md:flex gap-6 text-base z-10">
-          {['Blogs', 'Events', 'Podcasts', 'Pricing', 'Books', 'Mentors', 'History', 'Careers', 'FAQs'].map((item) => (
-            <li key={item} className="cursor-pointer hover:text-yellow-400">{item}</li>
+          {[
+            "Blogs",
+            "Events",
+            "Podcasts",
+            "Pricing",
+            "Books",
+            "Mentors",
+            "History",
+            "Careers",
+            "FAQs",
+          ].map((item) => (
+            <li key={item} className="cursor-pointer hover:text-[#CE9D4B]">
+              {item}
+            </li>
           ))}
         </ul>
         <div
           className="inline-block z-10"
           style={{
-            clipPath: 'polygon(10% 0%, 90% 0%, 100% 50%, 90% 100%, 10% 100%, 0% 50%)',
-            backgroundColor: '#D4AF37',
-            padding: '2px',
+            clipPath:
+              "polygon(10% 0%, 90% 0%, 100% 50%, 90% 100%, 10% 100%, 0% 50%)",
+            backgroundColor: "#D4AF37",
+            padding: "2px",
           }}
         >
           <button
-            className="text-white text-sm font-medium px-6 py-2 w-full h-full"
+            className="text-white text-lg cursor-pointer font-semibold px-8 py-4 w-full h-full"
             style={{
-              clipPath: 'polygon(10% 0%, 90% 0%, 100% 50%, 90% 100%, 10% 100%, 0% 50%)',
-              backgroundColor: 'black',
-              border: 'none',
+              clipPath:
+                "polygon(10% 0%, 90% 0%, 100% 50%, 90% 100%, 10% 100%, 0% 50%)",
+              backgroundColor: "black",
+              border: "none",
+              fontSize: "1.20rem",
+              padding: "1rem 2rem",
             }}
           >
             BOOK YOUR CALL
@@ -209,8 +220,6 @@ const HeroSection = () => {
         <p className="text-base md:text-lg mb-4 font-normal text-gray-300 ">
           Blending Soul & Strategy to Shape Legacy, Influence, and Impact
         </p>
-
-
 
         {/* Media Mentions */}
         <div className="text-[#CE9D4B] mb-3 mt-13 font-normal">
@@ -246,7 +255,9 @@ const HeroSection = () => {
           </div>
 
           <p className="text-xs md:text-sm text-gray-400 max-w-full mx-auto px-4 mb-4 whitespace-nowrap overflow-x-auto">
-            Industry Icons | Conscious Companies | Soulful Celebrities | Internet Influencers | Passionate Professionals | Solopreneurs | Industrialists | Legacy-Driven Leaders
+            Industry Icons | Conscious Companies | Soulful Celebrities |
+            Internet Influencers | Passionate Professionals | Solopreneurs |
+            Industrialists | Legacy-Driven Leaders
           </p>
 
           <div className="overflow-x-auto whitespace-nowrap px-4">

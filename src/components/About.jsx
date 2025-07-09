@@ -1,5 +1,5 @@
 // import React from 'react';
-// import profileImg from '../assets/about(1).png'; 
+// import profileImg from '../assets/about(1).png';
 
 // const AboutSarthak = () => {
 //   return (
@@ -31,7 +31,7 @@
 //                     PARTNERING WITH LEADING BRANDS AND <span className="font-bold">2000+ INDUSTRIALISTS</span> WORLDWIDE.
 //                   </p>
 //                 </div>
-                
+
 //                 {/* Second bullet point */}
 //                 <div className="flex items-start space-x-6">
 //                   <span className="text-black font-bold mt-1 text-lg">•</span>
@@ -41,7 +41,7 @@
 //                     PORTFOLIOS.
 //                   </p>
 //                 </div>
-                
+
 //                 {/* Third bullet point */}
 //                 <div className="flex items-start space-x-6">
 //                   <span className="text-black font-bold mt-1 text-lg">•</span>
@@ -51,7 +51,7 @@
 //                     BUSINESS TRANSFORMATION.
 //                   </p>
 //                 </div>
-                
+
 //                 {/* Fourth bullet point */}
 //                 <div className="flex items-start space-x-6">
 //                   <span className="text-black font-bold mt-1 text-lg">•</span>
@@ -60,7 +60,7 @@
 //                     ADMIRATION OF TOP INDUSTRIALISTS AND BUSINESS LEADERS.
 //                   </p>
 //                 </div>
-                
+
 //                 {/* Fifth bullet point */}
 //                 <div className="flex items-start space-x-6">
 //                   <span className="text-black font-bold mt-1 text-lg">•</span>
@@ -69,7 +69,7 @@
 //                     COMMUNICATION, AND CUSTOMER ENGAGEMENT IN CALL CENTERS.
 //                   </p>
 //                 </div>
-                
+
 //                 {/* Sixth bullet point */}
 //                 <div className="flex items-start space-x-6">
 //                   <span className="text-black font-bold mt-1 text-lg">•</span>
@@ -79,7 +79,7 @@
 //                     ENTREPRENEURSHIP, AND LEADERSHIP.
 //                   </p>
 //                 </div>
-                
+
 //                 {/* Seventh bullet point */}
 //                 <div className="flex items-start space-x-6">
 //                   <span className="text-black font-bold mt-1 text-lg">•</span>
@@ -99,7 +99,7 @@
 //             src={profileImg}
 //             alt="Sarthak Mittal"
 //             className="relative -right-[161px] top-[100px] w-[250px] max-w-full h-[700px] object-cover z-0"
-            
+
 //           />
 //         </div>
 //       </div>
@@ -110,8 +110,8 @@
 
 // export default AboutSarthak;
 
-import React from 'react';
-import profileImg from '../assets/about(1).png';
+import React from "react";
+import profileImg from "../assets/about(1).png";
 
 const AboutSarthak = () => {
   return (
@@ -121,45 +121,78 @@ const AboutSarthak = () => {
 
       {/* Section Container */}
       <div className="bg-white p-6 md:p-10 flex flex-col md:flex-row items-start gap-10 mt-9 relative z-20">
-        
         {/* Left Content */}
         <div className="relative w-full">
           {/* Title */}
-          <div className="mb-6">
+          <div className="mb-6 ml-6 md:ml-12">
             <span className="text-4xl md:text-5xl font-bold text-[#D0A151] font-Montserrat">
               ABOUT SARTHAK MITTAL
             </span>
           </div>
 
           {/* Decorative box */}
-          <div className="absolute top-0 left-0 w-20 h-72 bg-[#E6C584] -mt-9 opacity-50 z-40"></div>
+          <div className="absolute top-0 left-9 w-20 h-72 bg-[#E6C584] -mt-9 opacity-50 z-40"></div>
 
           {/* Full-width Info Box */}
-          <div className="w-full max-w-[1600px] ml-10 border-2 border-black rounded-xl p-6 bg-white relative z-10">
-            <div className="space-y-6 text-sm md:text-base text-black leading-relaxed">
+          <div className="w-full max-w-[1600px] ml-20 border-2 border-black rounded-xl p-6 bg-white relative z-10">
+            <div className="space-y-1 text-sm md:text-base text-black leading-relaxed">
               {[
                 <>
-                  <span className="font-bold">FOUNDER & CEO OF MITTAL ALLIANCE INDUSTRIES PRIVATE LIMITED (INDIA)</span> AND <br />
-                  <span className="font-bold">MITTAL BRANDTECH INC. (COLORADO, USA)</span> — TWO SUCCESSFUL ENTERPRISES PARTNERING WITH LEADING BRANDS AND <span className="font-bold">2000+ INDUSTRIALISTS</span> WORLDWIDE.
+                  <span className="font-bold">
+                    FOUNDER & CEO OF MITTAL ALLIANCE INDUSTRIES PRIVATE LIMITED
+                    (INDIA)
+                  </span>{" "}
+                  AND <br />
+                  <span className="font-bold">
+                    MITTAL BRANDTECH INC. (COLORADO, USA)
+                  </span>{" "}
+                  — TWO SUCCESSFUL ENTERPRISES PARTNERING WITH LEADING BRANDS
+                  AND <span className="font-bold">2000+ INDUSTRIALISTS</span>{" "}
+                  WORLDWIDE.
                 </>,
                 <>
-                  RECOGNIZED AS ONE OF THE <span className="font-bold">MOST TRUSTED BRANDING EXPERTS</span> ACROSS APAC, USA, AND EUROPE, WITH MULTIPLE ASSOCIATED VENTURES AND HIGH-IMPACT CLIENT PORTFOLIOS.
+                  RECOGNIZED AS ONE OF THE{" "}
+                  <span className="font-bold">
+                    MOST TRUSTED BRANDING EXPERTS
+                  </span>{" "}
+                  ACROSS APAC, USA, AND EUROPE, WITH MULTIPLE ASSOCIATED
+                  VENTURES AND HIGH-IMPACT CLIENT PORTFOLIOS.
                 </>,
                 <>
-                  CREATOR OF <span className="font-bold">BADVERSE</span> (BREAKDOWN, ANALYSIS, AND DECISION), A COMMUNITY OF OVER <span className="font-bold">10,000 MEMBERS</span> DEDICATED TO STRATEGIC PERSONAL AND BUSINESS TRANSFORMATION.
+                  CREATOR OF <span className="font-bold">BADVERSE</span>{" "}
+                  (BREAKDOWN, ANALYSIS, AND DECISION), A COMMUNITY OF OVER{" "}
+                  <span className="font-bold">10,000 MEMBERS</span> DEDICATED TO
+                  STRATEGIC PERSONAL AND BUSINESS TRANSFORMATION.
                 </>,
                 <>
-                  ACHIEVED A LINKEDIN REACH OF OVER <span className="font-bold">15 MILLION+</span>, EARNING THE TRUST AND ADMIRATION OF TOP INDUSTRIALISTS AND BUSINESS LEADERS.
+                  ACHIEVED A LINKEDIN REACH OF OVER{" "}
+                  <span className="font-bold">15 MILLION+</span>, EARNING THE
+                  TRUST AND ADMIRATION OF TOP INDUSTRIALISTS AND BUSINESS
+                  LEADERS.
                 </>,
                 <>
-                  AUTHOR OF "<span className="font-bold">CONTACT CENTRE SUCCESS</span>", A KINDLE BOOK FOCUSED ON SALES, COMMUNICATION, AND CUSTOMER ENGAGEMENT IN CALL CENTERS.
+                  AUTHOR OF "
+                  <span className="font-bold">CONTACT CENTRE SUCCESS</span>", A
+                  KINDLE BOOK FOCUSED ON SALES, COMMUNICATION, AND CUSTOMER
+                  ENGAGEMENT IN CALL CENTERS.
                 </>,
                 <>
-                  PODCASTER & CONTENT CREATOR, RUNNING A <span className="font-bold">YOUTUBE CHANNEL</span> AND LINKEDIN LIVE SERIES WITH <span className="font-bold">3,500+ SUBSCRIBERS</span>, OFFERING POWERFUL INSIGHTS ON BRANDING, ENTREPRENEURSHIP, AND LEADERSHIP.
+                  PODCASTER & CONTENT CREATOR, RUNNING A{" "}
+                  <span className="font-bold">YOUTUBE CHANNEL</span> AND
+                  LINKEDIN LIVE SERIES WITH{" "}
+                  <span className="font-bold">3,500+ SUBSCRIBERS</span>,
+                  OFFERING POWERFUL INSIGHTS ON BRANDING, ENTREPRENEURSHIP, AND
+                  LEADERSHIP.
                 </>,
                 <>
-                  <span className="font-bold">GLOBAL SPEAKER</span>, DELIVERING <span className="font-bold">200+ WEBINARS</span>, FEATURED ON <span className="font-bold">TEDX</span>, AND HONORED WITH <span className="font-bold">12+ AWARDS</span> AND <span className="font-bold">70+ TESTIMONIALS</span> FROM CLIENTS AND FORUMS AROUND THE GLOBE — INCLUDING MITTAL BUSINESS EXCHANGE, MSFB, AND AACST.
-                </>
+                  <span className="font-bold">GLOBAL SPEAKER</span>, DELIVERING{" "}
+                  <span className="font-bold">200+ WEBINARS</span>, FEATURED ON{" "}
+                  <span className="font-bold">TEDX</span>, AND HONORED WITH{" "}
+                  <span className="font-bold">12+ AWARDS</span> AND{" "}
+                  <span className="font-bold">70+ TESTIMONIALS</span> FROM
+                  CLIENTS AND FORUMS AROUND THE GLOBE — INCLUDING MITTAL
+                  BUSINESS EXCHANGE, MSFB, AND AACST.
+                </>,
               ].map((point, idx) => (
                 <div key={idx} className="flex items-start space-x-3">
                   <span className="text-lg font-bold">•</span>
@@ -171,7 +204,8 @@ const AboutSarthak = () => {
         </div>
 
         {/* Right Image */}
-        <div className="hidden md:flex justify-center items-center">
+        {/* Right Image */}
+        <div className="hidden md:flex justify-center items-center ml-10">
           <img
             src={profileImg}
             alt="Sarthak Mittal"
@@ -185,8 +219,6 @@ const AboutSarthak = () => {
 
 export default AboutSarthak;
 
-
-
 //mobile responsive
 // import React from 'react';
 // import profileImg from '../assets/about(2).png';
@@ -199,7 +231,7 @@ export default AboutSarthak;
 
 //       {/* Section Container */}
 // <div className="flex flex-row items-start gap-6 md:gap-10 mt-9 relative z-20">
-  
+
 //   {/* Left Side - Text */}
 //   <div className="w-[70%] sm:w-[75%] transform translate-x-15">
 

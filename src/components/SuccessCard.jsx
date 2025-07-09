@@ -49,10 +49,9 @@ const cardData = [
     description: "Learners reached through workshops, mentorships, webinars,  and academic outreach programs.",
   },
 ];
-
 const SuccessCard = ({ image, title, description }) => {
   return (
-    <div className="relative h-[350px] w-[200px]">
+    <div className="relative h-[380px] w-[260px]">
       {/* SVG Background */}
       <svg
         viewBox="0 0 100 120"
@@ -67,25 +66,28 @@ const SuccessCard = ({ image, title, description }) => {
       </svg>
 
       {/* Card Content */}
-      <div className="absolute inset-0 flex flex-col items-center text-white px-3 py-2">
+      <div className="absolute inset-0 flex flex-col items-center text-white px-4 py-3">
         {/* Image */}
         <img
           src={image}
           alt={title}
-          className="w-[180px] h-[140px] object-cover rounded-md mb-2 mt-2"
+          className="w-[240px] h-[150px] object-cover rounded-md mb-3 mt-2"
         />
 
-        
-        <div className="flex flex-col items-center text-center mt-1">
-          <h3 className="text-sm text-[#D0A151] items-end font-bold leading-tight">
+        {/* Text Content */}
+        <div className="flex flex-col items-center text-center mt-2">
+          <h3 className="text-base text-[#D0A151] font-bold leading-tight">
             {title}
           </h3>
-          <p className="text-xs ml-3 text-left tracking-widest leading-snug">{description}</p>
+          <p className="text-sm text-left tracking-wide leading-snug mt-1">
+            {description}
+          </p>
         </div>
       </div>
     </div>
   );
 };
+
 
 
 
@@ -150,7 +152,7 @@ const downCardData = [
 
 const SuccessCardDown = ({ image, title, description, isDualImage }) => {
   return (
-    <div className="relative h-[350px] w-[200px]">
+    <div className="relative h-[380px] w-[250px]">
       {/* Flipped SVG background */}
       <svg
         viewBox="0 0 100 120"
