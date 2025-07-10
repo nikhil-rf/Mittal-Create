@@ -158,7 +158,7 @@ const BlogsInsightsPage = () => {
         </div>
 
         {/* Author Profile Strip - Bottom Right inside this page only */}
-        <div className="absolute bottom-0 right-0 -mb-9 -mr-55 bg-black text-white rounded p-4 w-60 shadow-lg">
+        <div className="absolute bottom-0 right-0 -mb-9 -mr-75 bg-black text-white rounded p-4 w-60 shadow-lg">
           <div className="flex items-center space-x-3">
             {/* Author Avatar */}
             <div className="w-12 h-12 rounded-full overflow-hidden flex-shrink-0">
