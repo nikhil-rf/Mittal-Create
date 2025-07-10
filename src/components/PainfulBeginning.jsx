@@ -1,13 +1,18 @@
 import React from "react";
 import image1 from "../assets/founder1.jpg"; // Make sure filenames match
 import image2 from "../assets/founder2.jpg";
+import triangleImg from '../assets/whitesvg.png';
+
 
 const PainfulBeginning = () => {
   return (
     <div className="bg-black text-white px-6 md:px-24 py-20 font-sans">
       {/* Inverted Chevron at the top */}
-      <div className="w-0 h-0 border-l-[60px] border-r-[60px] border-t-[40px] border-l-transparent border-r-transparent border-t-white mx-auto -mt-20" />
-
+      <img
+  src={triangleImg}
+  alt="Triangle Divider"
+  className="mx-auto -mt-20 w-[990px] h-10"
+/>
       <div className="h-[100px]" />
       {/* Section Title */}
       <h2 className="text-center text-3xl md:text-5xl font-bold mb-2">

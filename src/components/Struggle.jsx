@@ -414,6 +414,7 @@ import moment9 from "../assets/moment9.jpg";
 import moment10 from "../assets/moment10.jpg";
 import moment11 from "../assets/moment11.jpg";
 import moment12 from "../assets/moment12.jpg";
+import triangleImg from '../assets/whitesvg.png';
 
 // Individual Card Components
 const FirstCompanyCard = () => (
@@ -775,8 +776,11 @@ const Struggle = () => {
   return (
     <div className="min-h-screen bg-black font-montserrat px-4 py-10 ">
       {/* White Chevron Down - Top of Footer */}
-        <div className="w-0 h-0 border-l-[120px] border-r-[120px] border-t-[70px] border-l-transparent border-r-transparent border-t-white mx-auto -mt-13 " />
-
+      <img
+  src={triangleImg}
+  alt="Triangle Divider"
+  className="mx-auto -mt-10 w-full h-auto"
+/>
       <div className="max-w-6xl mx-auto mt-19">
         <h1 className="text-3xl md:text-4xl font-bold text-[#D0A151] text-center tracking-wide mb-2">
           MY STRUGGLES MADE ME HUMBLE & GROUNDED

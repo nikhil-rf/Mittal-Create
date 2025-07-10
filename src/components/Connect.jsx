@@ -23,9 +23,9 @@ const Connect = () => {
       {/* Chevron at the top */}
       <div className="absolute top-0 left-1/2 transform -translate-x-1/2 w-40rem h-30rem">
         <img
-          src={chevronImage} // Make sure you've imported this at the top
+          src={chevronImage}
           alt="Chevron"
-          className="w-full h-full object-cover"
+          className="w-[500px] h-12 object-cover"
         />
       </div>
 

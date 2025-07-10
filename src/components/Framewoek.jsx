@@ -210,13 +210,19 @@ import icon3 from "../assets/vector.png";
 import BImage from "../assets/b.png";
 import AImage from "../assets/a.png";
 import DImage from "../assets/d.png";
+import triangleImg from '../assets/blacksvg.png';
+
 
 const Framework = () => {
   return (
     <div className="relative bg-white min-h-screen text-center px-4 py-12 pt-30">
       {/* Chevron pointing down */}
-      <div className="absolute top-0 left-1/2 transform -translate-x-1/2">
-        <div className="w-0 h-0 border-x-[80px] border-x-transparent border-t-[40px] border-t-black"></div>
+      <div className="absolute w-full top-0 left-1/2 transform -translate-x-1/2">
+        <img
+          src={triangleImg}
+          alt="Triangle Divider"
+          className="mx-auto  w-full h-12"
+        />
       </div>
 
       <h1 className="text-2xl md:text-5xl font-bold text-[#D0A151] mb-2">

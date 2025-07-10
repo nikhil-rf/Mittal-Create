@@ -1,5 +1,6 @@
 import React from "react";
 import avatar from "../assets/avatar.png";
+import triangleImg from "../assets/blacksvg.png";
 const BlogsInsightsPage = () => {
   const blogPosts = [
     {
@@ -40,8 +41,11 @@ const BlogsInsightsPage = () => {
   return (
     <div className="min-h-screen bg-gray-50 py-16 px-4">
       {/* Black Chevron Fortress */}
-      <div className="w-0 h-0 border-l-[80px] border-r-[80px] border-t-[50px] border-l-transparent border-r-transparent border-t-black mx-auto -mt-16 mb-12" />
-
+      <img
+        src={triangleImg}
+        alt="Triangle Divider"
+        className="mx-auto -mt-16 w-full h-auto"
+      />
       <div className="relative max-w-6xl mx-auto mt-25">
         {/* Header Section */}
         <div className="text-center mb-16">

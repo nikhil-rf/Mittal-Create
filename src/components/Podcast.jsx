@@ -1,10 +1,15 @@
 import React from 'react';
-import IMG from '../assets/podcast.png'; 
+import IMG from '../assets/podcast.png';
+import triangleImg from '../assets/blacksvg.png'; 
 const PodcastPage = () => {
   return (
     <div className="min-h-screen bg-gray-50 py-16 px-4">
               {/* Black Chevron Fortress */}
-        <div className="w-0 h-0 border-l-[80px] border-r-[80px] border-t-[50px] border-l-transparent border-r-transparent border-t-black mx-auto -mt-16" />
+      <img
+  src={triangleImg}
+  alt="Triangle Divider"
+  className="mx-auto -mt-16 w-full h-auto"
+/>
 
       <div className="max-w-6xl mx-auto mt-12">
         {/* Header Section */}

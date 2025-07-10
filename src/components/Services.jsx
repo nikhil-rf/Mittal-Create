@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import triangleImg from "../assets/whitesvg.png";
 
 const ServicesPage = () => {
   const [showAll, setShowAll] = useState(false);
@@ -95,7 +96,13 @@ const ServicesPage = () => {
 
   return (
     <div className="min-h-screen bg-black text-white py-16 px-4">
-      <div className="w-0 h-0 border-l-[140px] border-r-[140px] border-t-[70px] border-l-transparent border-r-transparent border-t-white mx-auto -mt-24" />
+      <div className="absolute w-full">
+        <img
+          src={triangleImg}
+          alt="Triangle Divider"
+          className="mx-auto -mt-16 w-full h-auto"
+        />
+      </div>
 
       <div className="max-w-7xl mx-auto mt-18">
         {/* Header */}

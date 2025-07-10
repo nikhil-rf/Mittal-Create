@@ -112,12 +112,17 @@
 
 import React from "react";
 import profileImg from "../assets/about(1).png";
+import triangleImg from "../assets/blacksvg.png";
 
 const AboutSarthak = () => {
   return (
     <div className="min-h-screen bg-white pt-10 pb-2 px-0 md:px-0 relative mt-10">
       {/* Top Chevron */}
-      <div className="w-0 h-0 border-x-[80px] border-x-transparent border-t-[40px] border-t-black mx-auto -mt-20"></div>
+      <img
+        src={triangleImg}
+        alt="Triangle Divider"
+        className="mx-auto -mt-20 w-[900px] h-10"
+      />
 
       {/* Section Container */}
       <div className="bg-white p-6 md:p-10 flex flex-col md:flex-row items-start gap-10 mt-9 relative z-20">
