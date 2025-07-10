@@ -15,7 +15,7 @@ const RisePage = () => {
               THE RISE OF AN ENTREPRENEUR
             </h1>
 
-            <div className="space-y-6 ml-9 text-lg lg:text-xl leading-relaxed">
+            <div className="space-y-6 ml-2 text-lg lg:text-xl leading-relaxed">
               <p className="font-thin">
                 In <span className="font-bold">2022</span>, I joined{" "}
                 <span className="font-bold">NMIMS Indore</span> for a{" "}
@@ -54,7 +54,7 @@ const RisePage = () => {
 
           {/* Profile Image */}
           <div className="flex-shrink-0 order-1 lg:order-2">
-            <div className="w-80 h-110 bg-gray-800 border-4 mr-15 border-[#CE9D4B] rounded-sm overflow-hidden">
+            <div className="w-80 h-110 bg-gray-800 border-4 mr-15 border-[#CE9D4B] rounded-sm overflow-hidden ml-20">
               <img
                 src={riseImg}
                 alt="Team Group Photo"

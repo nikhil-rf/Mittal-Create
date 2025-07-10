@@ -9,10 +9,10 @@ const PodcastPage = () => {
       <div className="max-w-6xl mx-auto mt-12">
         {/* Header Section */}
         <div className="text-center mb-16">
-          <h1 className="text-[#D0A151] text-2xl font-bold tracking-wider mb-2">
+          <h1 className="text-[#D0A151] text-5xl font-bold tracking-wider mb-2">
             PODCASTS
           </h1>
-          <div className="w-35 h-2 bg-[#D0A151] mx-auto"></div>
+          <div className="w-69 h-2 bg-[#D0A151] mx-auto"></div>
         </div>
 
         {/* Main Content Section */}

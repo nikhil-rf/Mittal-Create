@@ -1,5 +1,5 @@
-import React from 'react';
-import avatar from '../assets/avatar.png'; 
+import React from "react";
+import avatar from "../assets/avatar.png";
 const BlogsInsightsPage = () => {
   const blogPosts = [
     {
@@ -9,8 +9,9 @@ const BlogsInsightsPage = () => {
       author: "Sarthak Mittal",
       date: "August 21, 2024",
       title: "Stop Ignoring These 7 Inspiring Innovations & How to Do It",
-      description: "Discover the revolutionary innovations that are reshaping industries and learn how to implement them effectively.",
-      bgColor: "bg-gradient-to-br from-red-200 to-pink-300"
+      description:
+        "Discover the revolutionary innovations that are reshaping industries and learn how to implement them effectively.",
+      bgColor: "bg-gradient-to-br from-red-200 to-pink-300",
     },
     {
       id: 2,
@@ -19,8 +20,9 @@ const BlogsInsightsPage = () => {
       author: "Sarthak Mittal",
       date: "Jun 10, 2024",
       title: "To carry out put into practice management",
-      description: "Practical strategies for implementing management principles that drive results and foster organizational growth.",
-      bgColor: "bg-gradient-to-br from-green-200 to-teal-300"
+      description:
+        "Practical strategies for implementing management principles that drive results and foster organizational growth.",
+      bgColor: "bg-gradient-to-br from-green-200 to-teal-300",
     },
     {
       id: 3,
@@ -29,19 +31,18 @@ const BlogsInsightsPage = () => {
       author: "Sarthak Mittal",
       date: "Jul 15, 2024",
       title: "B involves handling over to Customer, Potential",
-      description: "Master the art of customer handoffs and unlock the potential for lasting business relationships.",
-      bgColor: "bg-gradient-to-br from-blue-200 to-purple-300"
-    }
+      description:
+        "Master the art of customer handoffs and unlock the potential for lasting business relationships.",
+      bgColor: "bg-gradient-to-br from-blue-200 to-purple-300",
+    },
   ];
 
   return (
     <div className="min-h-screen bg-gray-50 py-16 px-4">
       {/* Black Chevron Fortress */}
-    <div className="w-0 h-0 border-l-[80px] border-r-[80px] border-t-[50px] border-l-transparent border-r-transparent border-t-black mx-auto -mt-16 mb-12" />
+      <div className="w-0 h-0 border-l-[80px] border-r-[80px] border-t-[50px] border-l-transparent border-r-transparent border-t-black mx-auto -mt-16 mb-12" />
 
-    <div className="relative max-w-6xl mx-auto mt-25">
-
-        
+      <div className="relative max-w-6xl mx-auto mt-25">
         {/* Header Section */}
         <div className="text-center mb-16">
           {/* Latest Insights Badge */}
@@ -56,11 +57,11 @@ const BlogsInsightsPage = () => {
             My Blogs & Insights
           </h1>
           <div className="w-117 h-2 bg-[#D0A151] mx-auto mb-8"></div>
-          
+
           {/* Description */}
           <p className="text-gray-700 text-lg max-w-2xl mx-auto leading-relaxed">
-            Thought leadership articles and strategic insights to help you navigate the 
-            complexities of modern business.
+            Thought leadership articles and strategic insights to help you
+            navigate the complexities of modern business.
           </p>
         </div>
 
@@ -88,14 +89,30 @@ const BlogsInsightsPage = () => {
                 {/* Author and Date */}
                 <div className="flex items-center gap-3 text-xs text-gray-300 mb-3">
                   <div className="flex items-center gap-1">
-                    <svg className="w-3 h-3" fill="currentColor" viewBox="0 0 20 20">
-                      <path fillRule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clipRule="evenodd" />
+                    <svg
+                      className="w-3 h-3"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"
+                        clipRule="evenodd"
+                      />
                     </svg>
                     <span>{post.author}</span>
                   </div>
                   <div className="flex items-center gap-1">
-                    <svg className="w-3 h-3" fill="currentColor" viewBox="0 0 20 20">
-                      <path fillRule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clipRule="evenodd" />
+                    <svg
+                      className="w-3 h-3"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z"
+                        clipRule="evenodd"
+                      />
                     </svg>
                     <span>{post.date}</span>
                   </div>
@@ -114,8 +131,18 @@ const BlogsInsightsPage = () => {
                 {/* Read More Link */}
                 <button className="text-[#D0A151] hover:text-[#D0A151] text-xs font-semibold flex items-center gap-1 transition-colors duration-200">
                   Read More
-                  <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                  <svg
+                    className="w-3 h-3"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M9 5l7 7-7 7"
+                    />
                   </svg>
                 </button>
               </div>
@@ -130,38 +157,30 @@ const BlogsInsightsPage = () => {
           </button>
         </div>
 
+        {/* Author Profile Strip - Bottom Right inside this page only */}
+        <div className="absolute bottom-0 right-0 -mb-9 -mr-40 bg-black text-white rounded p-4 w-60 shadow-lg">
+          <div className="flex items-center space-x-3">
+            {/* Author Avatar */}
+            <div className="w-12 h-12 rounded-full overflow-hidden flex-shrink-0">
+              <img
+                src={avatar}
+                alt="Sarthak Mittal"
+                className="w-full h-full object-cover"
+              />
+            </div>
 
-              {/* Author Profile Strip - Fixed at Bottom Right */}
-  {/* Author Profile Strip - Bottom Right inside this page only */}
-  <div className="absolute bottom-0 right-0 -mb-9 -mr-9 bg-black text-white rounded p-4 w-60 shadow-lg">
-  <div className="flex items-center space-x-3">
-    {/* Author Avatar */}
-    <div className="w-12 h-12 rounded-full overflow-hidden flex-shrink-0">
-      <img 
-        src={avatar}
-        alt="Sarthak Mittal" 
-        className="w-full h-full object-cover"
-      />
-    </div>
-
-    {/* Author Info */}
-    <div className="flex-1">
-      <h3 className="text-white font-semibold text-sm mb-1">
-        Sarthak Mittal
-      </h3>
-      <p className="text-gray-300 text-xs">Author</p>
-    </div>
-  </div>
-</div>
-
-
-
-          
-
+            {/* Author Info */}
+            <div className="flex-1">
+              <h3 className="text-white font-semibold text-sm mb-1">
+                Sarthak Mittal
+              </h3>
+              <p className="text-gray-300 text-xs">Author</p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
 };
 
 export default BlogsInsightsPage;
-

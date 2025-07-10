@@ -13,10 +13,10 @@ const PainfulBeginning = () => {
       <h2 className="text-center text-3xl md:text-5xl font-bold mb-2">
         A <span className="text-[#CE9D4B] italic">PAINFUL</span> BEGINNING
       </h2>
-      <div className="h-1 w-[45%] bg-[#CE9D4B] mx-auto mb-12"></div>
+      <div className="h-1 w-[540px] bg-[#CE9D4B] mx-auto mb-12"></div>
 
       {/* Content */}
-      <div className="max-w-6xl mx-auto space-y-6 text-sm md:text-base leading-7 text-justify">
+      <div className="max-w-6xl mx-auto space-y-6 text-base md:text-lg leading-8 text-justify">
         {/* Intro Paragraphs and Images (Side by Side Images, Full Width Text) */}
         <div className="relative flex flex-col md:flex-col gap-4">
           {/* First line */}

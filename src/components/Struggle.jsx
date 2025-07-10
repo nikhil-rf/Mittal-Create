@@ -778,10 +778,10 @@ const Struggle = () => {
         <div className="w-0 h-0 border-l-[120px] border-r-[120px] border-t-[70px] border-l-transparent border-r-transparent border-t-white mx-auto -mt-13 " />
 
       <div className="max-w-6xl mx-auto mt-19">
-        <h1 className="text-3xl md:text-3xl font-bold text-[#D0A151] text-center tracking-wide mb-2">
+        <h1 className="text-3xl md:text-4xl font-bold text-[#D0A151] text-center tracking-wide mb-2">
           MY STRUGGLES MADE ME HUMBLE & GROUNDED
         </h1>
-        <div className="w-32 h-1 bg-[#D0A151] mx-auto mb-6" />
+        <div className="w-[890px] h-1.5 bg-[#D0A151] mx-auto mb-6" />
         <p className="text-white text-center text-lg md:text-xl mb-12">
           Some moments which made my life memorable
         </p>
