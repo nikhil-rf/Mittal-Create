@@ -10,7 +10,7 @@ const SuccessMatrixPage = () => {
       <img
               src={triangleImg}
               alt="Triangle Divider"
-              className="mx-auto -mt-20 w-[990px] h-12"
+              className="mx-auto -mt-20 w-full h-12"
             />
       <h1 className="ml-18 text-5xl font-bold text-[#CE9D4B] mb-12 mt-28  underline decoration-[#CE9D4B] decoration-6">
         SUCCESS MATRIX

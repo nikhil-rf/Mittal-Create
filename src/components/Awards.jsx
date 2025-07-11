@@ -144,11 +144,6 @@
 
 // export default MediaHonorsAwards;
 
-
-
-
-
-
 // import React from 'react';
 
 // import img1 from '../assets/img1.jpg';
@@ -209,86 +204,178 @@
 
 
 
+// import React from "react";
+// import img1 from "../assets/img1.jpg";
+// import img2 from "../assets/img2.jpg";
+// import img3 from "../assets/img3.jpg";
+// import img4 from "../assets/img4.jpg";
+// import img5 from "../assets/img5.jpg";
+// import img6 from "../assets/img6.jpg";
+// import img7 from "../assets/img7.jpg";
+// import img8 from "../assets/img8.jpg";
+// import img9 from "../assets/img9.jpg";
+// import img10 from "../assets/img10.jpg";
+// import img11 from "../assets/img11.png";
+// import img12 from "../assets/img12.jpg";
+// import img13 from "../assets/img13.jpg";
+// import img14 from "../assets/img14.jpg";
+// import img15 from "../assets/img15.jpg";
+// import img16 from "../assets/img16.jpg";
+// import img17 from "../assets/img17.jpg";
+// import img18 from "../assets/img18.jpg";
 
-import React from 'react';
-import img1 from '../assets/img1.jpg';
-import img2 from '../assets/img2.jpg';
-import img3 from '../assets/img3.jpg';
-import img4 from '../assets/img4.jpg';
-import img5 from '../assets/img5.jpg';
-import img6 from '../assets/img6.jpg';
-import img7 from '../assets/img7.jpg';
-import img8 from '../assets/img8.jpg';
-import img9 from '../assets/img9.jpg';
-import img10 from '../assets/img10.jpg';
-import img11 from '../assets/img11.png';
-import img12 from '../assets/img12.jpg';
-import img13 from '../assets/img13.jpg';
-import img14 from '../assets/img14.jpg';
-import img15 from '../assets/img15.jpg';
-import img16 from '../assets/img16.jpg';
-import img17 from '../assets/img17.jpg';
-import img18 from '../assets/img18.jpg';
+// const images = [
+//   { src: img1, width: "w-full", height: "h-84" },
+//   { src: img2, width: "w-full", height: "h-52" },
+//   { src: img3, width: "w-full", height: "h-52" },
+//   { src: img4, width: "w-full", height: "h-50" },
+//   { src: img5, width: "w-80", height: "h-80" },
+//   {
+//     src: img6,
+//     width: "w-full",
+//     height: "h-84",
+//     extra: "relative -top-20 left-11",
+//   },
+//   {
+//     src: img7,
+//     width: "w-full",
+//     height: "h-60",
+//     extra: "relative -top-20 left-10",
+//   },
+//   {
+//     src: img8,
+//     width: "w-58",
+//     height: "h-40",
+//     extra: "relative -top-13 left-10",
+//   },
+//   {
+//     src: img9,
+//     width: "w-70",
+//     height: "h-50",
+//     extra: "relative -top-45 -right-217",
+//   },
+//   { src: img10, width: "w-full", height: "h-100", extra: "relative -left-70" },
+//   {
+//     src: img11,
+//     width: "w-full",
+//     height: "h-55",
+//     extra: "relative -top-15 right-63",
+//   },
+//   {
+//     src: img12,
+//     width: "w-full",
+//     height: "h-56",
+//     extra: "relative top-50 right-138 ",
+//   },
+//   {
+//     src: img13,
+//     width: "w-60",
+//     height: "h-90",
+//     extra: "relative -top-134 left-155 ",
+//   },
+//   {
+//     src: img14,
+//     width: "w-full",
+//     height: "h-60",
+//     extra: "relative -top-89 left-145 ",
+//   },
+//   {
+//     src: img15,
+//     width: "w-full",
+//     height: "h-64",
+//     extra: "relative right-145 top-8 ",
+//   },
+//   {
+//     src: img16,
+//     width: "w-full",
+//     height: "h-55",
+//     extra: "relative right-140 top-15",
+//   },
+//   {
+//     src: img17,
+//     width: "w-full",
+//     height: "h-72",
+//     extra: "relative -top-96 left-154 ",
+//   },
+//   {
+//     src: img18,
+//     width: "w-58",
+//     height: "h-90",
+//     extra: "relative -top-114 left-155 ",
+//   },
+// ];
+
+// const MediaGrid = () => {
+//   return (
+//     <div className="h-auto  bg-white px-4 py-4 overflow-x-hidden">
+//       <div className="h-auto bg-white p-4">
+//         <div className="w-0 h-0 border-l-[80px] border-r-[80px] border-t-[50px] border-l-transparent border-r-transparent border-t-black mx-auto -mt-8" />
+
+//         {/* Heading */}
+//         <div className="text-center mb-12">
+//           <h2 className="text-3xl md:text-4xl font-bold text-[#D0A151] mt-20">
+//             MEDIA HONORS AND AWARDS
+//           </h2>
+//           <div className="mt-2 w-135 h-2 bg-[#D0A151] mx-auto" />
+//         </div>
+
+//         <div className="w-full max-h-[1500px] grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 mt-23 relative overflow-hidden isolate">
+//           {images.map((img, index) => (
+//             <div
+//               key={index}
+//               className={`p-2 border-2 shadow-2xl border-[#D0A151]  ${
+//                 img.width
+//               } ${img.height} bg-white rounded ${img.extra || ""}`}
+//             >
+//               <img
+//                 src={img.src}
+//                 alt={`img-${index + 1}`}
+//                 className="w-full h-full object-contain rounded"
+//               />
+//             </div>
+//           ))}
+//         </div>
+//       </div>
+//     </div>
+//   );
+// };
+
+// export default MediaGrid;
 
 
-const images = [
-  { src: img1, width: 'w-full', height: 'h-84' },
-  { src: img2, width: 'w-full', height: 'h-52' },
-  { src: img3, width: 'w-full', height: 'h-52' },
-  { src: img4, width: 'w-full', height: 'h-50' },
-  { src: img5, width: 'w-80', height: 'h-80' },
-  { src: img6, width: 'w-full', height: 'h-84', extra: 'relative -top-20 left-11'},
-  { src: img7, width: 'w-full', height: 'h-60', extra: 'relative -top-20 left-10' },
-  { src: img8, width: 'w-58', height: 'h-40', extra: 'relative -top-13 left-10' },
-  { src: img9, width: 'w-70', height: 'h-50' , extra: 'relative -top-45 -right-217'},
-  { src: img10, width: 'w-full', height: 'h-100', extra: 'relative -left-70' },
-  { src: img11, width: 'w-full', height: 'h-55' ,extra: 'relative -top-15 right-63'},
-  { src: img12, width: 'w-full', height: 'h-56' ,extra: 'relative top-50 right-138 ' },
-  { src: img13, width: 'w-60', height: 'h-90' ,extra: 'relative -top-134 left-155 ' },
-  { src: img14, width: 'w-full', height: 'h-60',extra: 'relative -top-89 left-145 ' },
-  { src: img15, width: 'w-full', height: 'h-64',extra: 'relative right-145 top-8 ' },
-  { src: img16, width: 'w-full', height: 'h-55' ,extra: 'relative right-140 top-15'},
-  { src: img17, width: 'w-full', height: 'h-72',extra: 'relative -top-96 left-154 ' },
-  { src: img18, width: 'w-58', height: 'h-90',extra: 'relative -top-114 left-155 ' },
-];
-
+import React from "react";
+import frame from "../assets/frame.png"; 
+import triangleImg from "../assets/blacksvg.png";
 const MediaGrid = () => {
   return (
-    <div className="h-auto  bg-white px-4 py-4 overflow-x-hidden">
+    <div className="h-auto bg-white px-4 py-4 overflow-x-hidden mb-19">
+      <div className="h-auto bg-white p-4">
+        {/* Triangle decoration */}
+        <img
+                      src={triangleImg}
+                      alt="Triangle Divider"
+                      className="mx-auto -mt-10 w-full h-12"
+                    />
 
-    <div className="h-auto bg-white p-4">
-      <div className="w-0 h-0 border-l-[80px] border-r-[80px] border-t-[50px] border-l-transparent border-r-transparent border-t-black mx-auto -mt-8" />
+        {/* Heading */}
+        <div className="text-center mb-12">
+          <h2 className="text-3xl md:text-4xl font-bold text-[#D0A151] mt-20">
+            MEDIA HONORS AND AWARDS
+          </h2>
+          <div className="mt-2 w-[540px] h-2 bg-[#D0A151] mx-auto" />
+        </div>
 
-            {/* Heading */}
-      <div className="text-center mb-12">
-        <h2 className="text-3xl md:text-4xl font-bold text-[#D0A151] mt-20">
-          MEDIA HONORS AND AWARDS
-        </h2>
-        <div className="mt-2 w-135 h-2 bg-[#D0A151] mx-auto" />
+        {/* Frame image */}
+        <div className="flex justify-center items-center">
+          <img
+            src={frame}
+            alt="Media Honors and Awards"
+            className="w-full max-w-7xl h-auto"
+          />
+        </div>
       </div>
-
-      <div className="w-full max-h-[1500px] grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 mt-23 relative overflow-hidden isolate">
-        {images.map((img, index) => (
-          <div
-  key={index}
-    className={`p-2 border-2 shadow-2xl border-[#D0A151]  ${img.width} ${img.height} bg-white rounded ${img.extra || ''}`}
->
-  <img
-    src={img.src}
-    alt={`img-${index + 1}`}
-    className="w-full h-full object-contain rounded"
-  />
-</div>
-
-        ))}
-      </div>
-    </div>
-
     </div>
   );
 };
 
 export default MediaGrid;
-
-
-

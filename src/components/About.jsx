@@ -121,7 +121,7 @@ const AboutSarthak = () => {
       <img
         src={triangleImg}
         alt="Triangle Divider"
-        className="mx-auto -mt-20 w-[900px] h-10"
+        className="mx-auto -mt-20 w-full h-10"
       />
 
       {/* Section Container */}
