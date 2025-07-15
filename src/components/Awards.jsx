@@ -202,8 +202,6 @@
 
 // export default MediaHonorsPage;
 
-
-
 // import React from "react";
 // import img1 from "../assets/img1.jpg";
 // import img2 from "../assets/img2.jpg";
@@ -342,9 +340,8 @@
 
 // export default MediaGrid;
 
-
 import React from "react";
-import frame from "../assets/frame.png"; 
+import frame from "../assets/frame.png";
 import triangleImg from "../assets/blacksvg.png";
 const MediaGrid = () => {
   return (
@@ -352,10 +349,10 @@ const MediaGrid = () => {
       <div className="h-auto bg-white p-4">
         {/* Triangle decoration */}
         <img
-                      src={triangleImg}
-                      alt="Triangle Divider"
-                      className="mx-auto -mt-10 w-full h-12"
-                    />
+          src={triangleImg}
+          alt="Triangle Divider"
+          className="mx-auto -mt-10 w-full h-12"
+        />
 
         {/* Heading */}
         <div className="text-center mb-12">
