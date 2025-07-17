@@ -40,7 +40,7 @@ const App = () => {
       <Framework />
       <Services />
       <Awards />
-      <Image />
+      {/* <Image /> */}
       <Testimonials />
       <Struggle />
       <Podcast />

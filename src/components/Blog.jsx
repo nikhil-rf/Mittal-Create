@@ -39,8 +39,8 @@ const BlogsInsightsPage = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-gray-50 py-16 px-4">
-      {/* Black Chevron Fortress */}
+    <div className="min-h-screen bg-gray-50 py-16 px-4 font-[Montserrat]">
+      
       <img
         src={triangleImg}
         alt="Triangle Divider"

@@ -6,7 +6,7 @@ import triangleImg from '../assets/whitesvg.png';
 
 const SuccessMatrixPage = () => {
   return (
-    <div className="h-full w-full bg-black py-18 px-4 space-y-2">
+    <div className="h-full w-full bg-black py-18 px-4 space-y-2 font-[Montserrat]">
       <img
               src={triangleImg}
               alt="Triangle Divider"

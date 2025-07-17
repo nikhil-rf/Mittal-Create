@@ -10,7 +10,7 @@ import triangleImg from '../assets/blacksvg.png';
 
 const Framework = () => {
   return (
-    <div className="relative bg-white min-h-screen text-center px-4 py-12 pt-30">
+    <div className="relative bg-white min-h-screen text-center px-4 py-12 pt-30 font-[Montserrat]">
       {/* Chevron pointing down */}
       <div className="absolute w-full top-0 left-1/2 transform -translate-x-1/2">
         <img

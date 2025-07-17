@@ -1,5 +1,5 @@
 import React from 'react';
-import fullImage from '../assets/image.png'; // your image
+import fullImage from '../assets/image.png'; 
 const FullImagePage = () => {
   return (
     <div className="w-screen min-h-screen flex items-center justify-center bg-black">

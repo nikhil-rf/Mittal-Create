@@ -95,7 +95,7 @@ const ServicesPage = () => {
   const displayedServices = showAll ? services : services.slice(0, 6);
 
   return (
-    <div className="min-h-screen bg-black text-white py-16 px-4">
+    <div className="min-h-screen bg-black text-white py-16 px-4 font-[Montserrat]">
       <div className="absolute w-full">
         <img
           src={triangleImg}

@@ -4,7 +4,7 @@ import triangleImg from "../assets/blacksvg.png";
 
 const AboutSarthak = () => {
   return (
-    <div className="min-h-screen bg-white pt-10 pb-2 px-0 md:px-0 relative mt-10">
+    <div className="min-h-screen bg-white pt-10 pb-2 px-0 md:px-0 relative mt-10 font-[Montserrat]">
       {/* Top Chevron */}
       <img
         src={triangleImg}

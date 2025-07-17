@@ -6,7 +6,7 @@ import triangleImg from '../assets/whitesvg.png';
 
 const PainfulBeginning = () => {
   return (
-    <div className="bg-black text-white px-6 md:px-24 py-20 font-sans">
+    <div className="bg-black text-white px-6 md:px-24 py-20 font-[Montserrat]">
       {/* Inverted Chevron at the top */}
       <img
   src={triangleImg}

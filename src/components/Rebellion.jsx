@@ -4,7 +4,7 @@ import rebellionImg from '../assets/rebellion.png';
 
 const RebellionPage = () => {
   return (
-    <div className="min-h-screen bg-black text-white flex items-center justify-center p-20">
+    <div className="min-h-screen bg-black text-white flex items-center justify-center p-20 font-[Montserrat]">
       <div className="max-w-6xl w-full">
         <div className="w-[108%] h-1.5 bg-gray-500 -ml-12 mb-25"></div>
         

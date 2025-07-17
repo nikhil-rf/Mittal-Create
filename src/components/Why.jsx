@@ -423,7 +423,7 @@ const MittalLandingPage = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-black text-white py-16 px-8">
+    <div className="min-h-screen bg-black text-white py-16 px-8 font-[Montserrat]">
 
       {/* White Chevron Down */}
         <img

@@ -737,7 +737,7 @@ const MicrosoftTeachingCard = () => (
 );
 
 const SecondCodingCommunityCard = () => (
-  <div className="relative flex flex-col items-center h-80 w-full max-w-xs mx-auto">
+  <div className="relative flex flex-col items-center h-80 w-full max-w-xs mx-auto font-[Montserrat]">
     {/* Background split */}
     <div className="absolute top-0 left-0 w-full h-full rounded-lg overflow-hidden shadow-lg">
       <div className="h-[40%] bg-[#D0A151] w-full" />

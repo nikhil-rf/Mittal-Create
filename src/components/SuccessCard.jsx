@@ -52,7 +52,7 @@ const cardData = [
 
 const SuccessCard = ({ image, title, description }) => {
   return (
-    <div className="relative h-[350px] w-[200px]">
+    <div className="relative h-[350px] w-[200px] font-[Montserrat]">
       {/* SVG Background */}
       <svg
         viewBox="0 0 100 120"
@@ -150,7 +150,7 @@ const downCardData = [
 
 const SuccessCardDown = ({ image, title, description, isDualImage }) => {
   return (
-    <div className="relative h-[350px] w-[200px]">
+    <div className="relative h-[350px] w-[200px] font-[Montserrat]">
       {/* Flipped SVG background */}
       <svg
         viewBox="0 0 100 120"
@@ -205,7 +205,7 @@ const SuccessCardDown = ({ image, title, description, isDualImage }) => {
 
 const ZigZagCards = () => {
   return (
-    <div className="flex flex-col items-center bg-black py-10">
+    <div className="flex flex-col items-center bg-black py-10 font-[Montserrat]">
       {/* Top Cards (SuccessCard) */}
       <div className="flex gap-4 mb-1 flex-wrap justify-center">
         {cardData.map((card, idx) => (

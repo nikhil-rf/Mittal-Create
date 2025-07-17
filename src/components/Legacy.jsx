@@ -3,7 +3,7 @@ import legacyImg from '../assets/legacy.png';
 
 const LegacyPage = () => {
   return (
-    <div className="min-h-screen relative overflow-hidden">
+    <div className="min-h-screen relative overflow-hidden font-[Montserrat]">
       {/* Background Image */}
       <div
         className="absolute inset-0 bg-cover bg-center scale-105"

@@ -340,39 +340,127 @@
 
 // export default MediaGrid;
 
-import React from "react";
-import frame from "../assets/frame.png";
-import triangleImg from "../assets/blacksvg.png";
-const MediaGrid = () => {
-  return (
-    <div className="h-auto bg-white px-4 py-4 overflow-x-hidden mb-19">
-      <div className="h-auto bg-white p-4">
-        {/* Triangle decoration */}
-        <img
-          src={triangleImg}
-          alt="Triangle Divider"
-          className="mx-auto -mt-10 w-full h-12"
-        />
+// import React from "react";
+// import frame from "../assets/frame.png";
+// import triangleImg from "../assets/blacksvg.png";
+// const MediaGrid = () => {
+//   return (
+//     <div className="h-auto bg-white px-4 py-4 overflow-x-hidden mb-19">
+//       <div className="h-auto bg-white p-4">
+//         {/* Triangle decoration */}
+//         <img
+//           src={triangleImg}
+//           alt="Triangle Divider"
+//           className="mx-auto -mt-10 w-full h-12"
+//         />
 
+//         {/* Heading */}
+//         <div className="text-center mb-12">
+//           <h2 className="text-3xl md:text-4xl font-bold text-[#D0A151] mt-20">
+//             MEDIA HONORS AND AWARDS
+//           </h2>
+//           <div className="mt-2 w-[540px] h-2 bg-[#D0A151] mx-auto" />
+//         </div>
+
+//         {/* Frame image */}
+//         <div className="flex justify-center items-center">
+//           <img
+//             src={frame}
+//             alt="Media Honors and Awards"
+//             className="w-full max-w-7xl h-auto"
+//           />
+//         </div>
+//       </div>
+//     </div>
+//   );
+// };
+
+// export default MediaGrid;
+
+import React from "react";
+import img1 from "../assets/img1.jpg";
+import img2 from "../assets/img2.jpg";
+import img3 from "../assets/img3.jpg";
+import img4 from "../assets/img4.jpg";
+import img5 from "../assets/img5.jpg";
+import img6 from "../assets/img6.jpg";
+import img7 from "../assets/img7.jpg";
+import img8 from "../assets/img8.jpg";
+import img9 from "../assets/img9.jpg";
+import img10 from "../assets/img10.jpg";
+import img11 from "../assets/img11.png";
+import img12 from "../assets/img12.jpg";
+import img13 from "../assets/img13.jpg";
+import img14 from "../assets/img14.jpg";
+import img15 from "../assets/img15.jpg";
+import img16 from "../assets/img16.jpg";
+import img17 from "../assets/img17.jpg";
+import img18 from "../assets/img18.jpg";
+import fullImage from '../assets/image.png';
+import blacksvg from "../assets/blacksvg.png"
+
+export default function Media() {
+  const column1 = [img1, img5, img10, img15];
+  const column2 = [img2, img6, img11, img12, img16];
+  const column3 = [img3, img7, img13, img17];
+  const column4 = [img4, img8, img9, img14, img18];
+
+  return (
+    <>
+      <div className="w-full bg-white px-4 lg:px-20 py-16 font-[Montserrat]">
+        <img
+                src={blacksvg}
+                alt="Triangle Divider"
+                className="mx-auto -mt-16 w-full h-auto"
+              />
         {/* Heading */}
-        <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-[#D0A151] mt-20">
-            MEDIA HONORS AND AWARDS
-          </h2>
-          <div className="mt-2 w-[540px] h-2 bg-[#D0A151] mx-auto" />
+        <div className="text-center mb-12 mt-8">
+          <h1 className="text-[40px] md:text-[60px] font-bold uppercase text-[#D0A151] inline-block relative pb-2">
+            Media Honors and Awards
+            <span className="absolute bottom-0 left-0 w-full h-1 bg-[#D0A151]" />
+          </h1>
         </div>
 
-        {/* Frame image */}
-        <div className="flex justify-center items-center">
-          <img
-            src={frame}
-            alt="Media Honors and Awards"
-            className="w-full max-w-7xl h-auto"
-          />
+        {/* 4 Columns Layout */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          {[column1, column2, column3, column4].map((column, colIndex) => {
+            const gapClass =
+              colIndex === 1
+                ? "gap-[40px]"
+                : colIndex === 2
+                ? "gap-[80px]"
+                : colIndex === 3
+                ? "gap-[40px]"
+                : "gap-2";
+
+            return (
+              <div key={colIndex} className={`flex flex-col ${gapClass}`}>
+                {column.map((img, index) => (
+                  <div
+                    key={index}
+                    className="border-[3.33px] border-[#D0A151] p-3 bg-white"
+                  >
+                    <img
+                      src={img}
+                      alt={`Award ${colIndex + 1}-${index + 1}`}
+                      className="w-full h-auto object-contain"
+                    />
+                  </div>
+                ))}
+              </div>
+            );
+          })}
         </div>
       </div>
-    </div>
-  );
-};
 
-export default MediaGrid;
+      {/* Full-width footer image */}
+      <div className="w-full overflow-hidden">
+        <img
+          src={fullImage}
+          alt="Footer Decorative"
+          className="w-full max-h-[800px] object-cover"
+        />
+      </div>
+    </>
+  );
+}

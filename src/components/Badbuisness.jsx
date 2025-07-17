@@ -3,7 +3,7 @@ import BadImg from '../assets/newbadbuisness.jpg';
 
 const BadBusinessPage = () => {
   return (
-    <div className="min-h-screen bg-black text-white flex items-center justify-center p-8">
+    <div className="min-h-screen bg-black text-white flex items-center justify-center p-8 font-[Montserrat]">
       <div className="max-w-6xl w-full ">
         
         

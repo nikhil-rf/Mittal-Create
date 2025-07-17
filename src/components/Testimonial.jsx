@@ -54,7 +54,7 @@ const TestimonialsSection = () => {
   };
 
   return (
-    <div className="bg-gray-50 py-16 px-4 min-h-screen flex flex-col justify-center">
+    <div className="bg-gray-50 py-16 px-4 min-h-screen flex flex-col justify-center font-[Montserrat]">
       <div className="max-w-6xl mx-auto">
         {/* Header */}
         <div className="text-center mb-12">

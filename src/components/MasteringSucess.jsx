@@ -3,7 +3,7 @@ import SucessImg from "../assets/sucess.png";
 import triangleImg from "../assets/whitesvg.png";
 const BookPublicationPage = () => {
   return (
-    <div className="min-h-screen bg-black text-white py-16 px-4 mt-20">
+    <div className="min-h-screen bg-black text-white py-16 px-4 mt-20 font-[Montserrat]">
       <div className="max-w-6xl mx-auto mt-30">
         {/* White Chevron Down */}
         <img

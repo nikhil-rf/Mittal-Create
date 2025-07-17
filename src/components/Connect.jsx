@@ -19,7 +19,7 @@ const Connect = () => {
   ];
 
   return (
-    <div className="h-full w-full bg-white px-4 pt-0 pb-20 relative">
+    <div className="h-full w-full bg-white px-4 pt-0 pb-20 relative font-[Montserrat]">
       {/* Chevron at the top */}
       <div className="absolute top-0 left-1/2 transform -translate-x-1/2 w-40rem h-30rem">
         <img
